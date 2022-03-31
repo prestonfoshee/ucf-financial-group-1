@@ -1,5 +1,5 @@
 <template>
-<main class="min-h-screen space-y-10 bg-black">
+<main class="min-h-screen bg-black">
         <section class="flex justify-between items-center px-16 py-6">
             <div class="flex items-center">
                 <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -13,21 +13,15 @@
                 </div>
             </div>
 
-            <div class="flex space-x-10">
-                <a href="/login" :text="'Login'">
-                    Login
-                </a>
-                <a href="/users/create" :text="'Sign up'">
-                    Sign up
-                </a>
+            <div class="flex space-x-10 text-main-gold">
                 <a href="/logout" :text="'Sign up'" as="button" method="post">
                     Logout
                 </a>
             </div>
         </section>
 
-        <section class="py-6 px-24">
-            <div class=" max-w-screen-3xl mx-auto">
+        <section class="sm:py-10 sm:px-24 px-8 py-8">
+            <div class="max-w-screen-3xl mx-auto">
               <Nuxt />
             </div>
         </section>

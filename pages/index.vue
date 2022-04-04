@@ -1,7 +1,8 @@
 <script>
-import NavGrid from "../components/NavGrid.vue";
+import NavGrid from '../components/home/NavGrid.vue'
 export default {
-    components: { NavGrid }
+    layout: 'home',
+    components: { NavGrid },
 }
 </script>
 

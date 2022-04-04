@@ -1,29 +1,101 @@
+<script>
+  export default {
+    data() {
+      return {
+        budget: {
+          headerText: 'Manage your budget',
+          subtitleText: 'Use real figures from your current records to plan out your semester.',
+        },
+        calendar: {
+          headerText: 'Events & Important Dates',
+          subtitleText: 'Keep track of events & important milestones to stay ahead of the game.',
+        },
+        aid: {
+          headerText: 'One-stop for financial aid',
+          subtitleText: 'Keep track of events & important milestones to stay ahead of the game.',
+        },
+        scholarships: {
+          headerText: 'An endless list of possibilities',
+          subtitleText: 'Use real figures from your current records to plan out your semester.',
+        },
+        coupons: {
+          headerText: 'Discounts at your convenience',
+          subtitleText: 'Use real figures from your current records to plan out your semester.',
+        },
+        literacy: {
+          headerText: 'Finance information at your fingertips',
+          subtitleText: 'Use real figures from your current records to plan out your semester.',
+        },
+        contact: {
+          headerText: 'Contact an advisor',
+          subtitleText: 'Use real figures from your current records to plan out your semester.',
+        },
+      }
+    },
+    methods: {
+      buttonClick() {
+        console.log('hi mom')
+      },
+    }
+  }
+</script>
+
 <template>
-<main class="min-h-screen bg-black">
-        <section class="flex justify-between items-center px-16 py-6">
-            <div class="flex items-center">
-                <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.5 57C44.2401 57 57 44.2401 57 28.5C57 12.7599 44.2401 0 28.5 0C12.7599 0 0 12.7599 0 28.5C0 44.2401 12.7599 57 28.5 57ZM29.8117 17.2729C34.1995 14.5786 41.3072 13.8376 44.8833 13.634C46.0853 13.5659 47.0876 14.4843 47.087 15.6436V37.7585C47.087 38.8209 46.2301 39.7072 45.128 39.7655C41.8997 39.9357 35.3708 40.5576 30.8564 42.8369C30.1614 43.1877 29.3373 42.7099 29.3373 41.9538V18.135C29.3373 17.7894 29.5089 17.4588 29.8117 17.2729ZM11.7044 13.634C15.2804 13.8382 22.3881 14.5786 26.7753 17.2729C27.0787 17.4595 27.2497 17.7769 27.2497 18.1232V41.9584C27.2497 42.7125 26.4281 43.1897 25.7351 42.8395C21.2207 40.5589 14.6885 39.9363 11.459 39.7662C10.3568 39.7085 9.5 38.8222 9.5 37.7592V15.6436C9.5 14.4843 10.5023 13.5659 11.7044 13.634Z" fill="#FFC904"/>
-                </svg>
-                <div class="flex items-center space-x-8">
-                    <div class="px-6">
-                        <h1 class="text-2xl text-main-gold font-medium uppercase">University of Central Florida</h1>
-                    </div>
-                    <!-- <Nav /> -->
-                </div>
-            </div>
+  <main class="min-h-screen">
+    <section class="flex justify-between items-center px-16 py-3 bg-black">
+      <div class="flex items-center">
+          <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="27.5" cy="27.5" r="27.5" fill="#FFC904"/>
+          </svg>
+          <div class="flex items-center space-x-8">
+              <div class="px-6">
+                  <h1 class="text-2xl text-main-gold font-medium uppercase">University of Central Florida</h1>
+              </div>
+          </div>
+      </div>
+      <div class="flex items-center justify-center space-x-10 text-main-gold">
+        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="30" cy="30" r="30" fill="#C4C4C4"/>
+        </svg>
+        <div class="flex justify-between relative">
+          <input type="text" class="px-4 py-2 rounded-md text-black text-sm">
+          <button @click="buttonClick" type="submit" class="absolute right-0 w-1/6 h-full bg-main-gold rounded-r-md">
+            <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="20px" height="20px" class="absolute right-2 bottom-2">
+             <path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
 
-            <div class="flex space-x-10 text-main-gold">
-                <a href="/logout" :text="'Sign up'" as="button" method="post">
-                    Logout
-                </a>
-            </div>
-        </section>
+    <div class="flex justify-center bg-cover w-full h-96" :style="{'background-image': `url(${require('@/assets/img/sky-header.jpg')})`}">
+      <div class="flex flex-col space-y-12 py-10 px-16">
+        <Nav />
+          <div class="flex justify-center items-center bg-main-gold/50 max-w-sm max-h-36 p-4">
+            <h1 v-if="$route.name === 'budget-calculator'" class="text-white text-5xl text-center font-bold uppercase">{{ budget.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'calendar'" class="text-white text-5xl text-center font-bold uppercase">{{ calendar.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'financial-aid'" class="text-white text-5xl text-center font-bold uppercase">{{ aid.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'scholarships'" class="text-white text-5xl text-center font-bold uppercase">{{ scholarships.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'coupons-and-discounts'" class="text-white text-5xl text-center font-bold uppercase">{{ coupons.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'financial-literacy'" class="text-white text-5xl text-center font-bold uppercase">{{ literacy.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'contact'" class="text-white text-5xl text-center font-bold uppercase">{{ contact.headerText }}</h1>
+          </div>
+          <div class="max-w-md">
+            <p v-if="$route.name === 'budget-calculator'" class="text-white text-xl font-light">{{ budget.subtitleText }}</p>
+            <p v-else-if="$route.name === 'calendar'" class="text-white text-xl font-light">{{ calendar.subtitleText }}</p>
+            <p v-else-if="$route.name === 'financial-aid'" class="text-white text-xl font-light">{{ aid.subtitleText }}</p>
+            <p v-else-if="$route.name === 'scholarships'" class="text-white text-xl font-light">{{ scholarships.subtitleText }}</p>
+            <p v-else-if="$route.name === 'coupons-and-discounts'" class="text-white text-xl font-light">{{ coupons.subtitleText }}</p>
+            <p v-else-if="$route.name === 'financial-literacy'" class="text-white text-xl font-light">{{ literacy.subtitleText }}</p>
+            <p v-else-if="$route.name === 'contact'" class="text-white text-xl font-light">{{ contact.subtitleText }}</p>
+          </div>
+      </div>
+    </div>
 
-        <section class="sm:py-10 sm:px-24 px-8 py-8">
-            <div class="max-w-screen-3xl mx-auto">
-              <Nuxt />
-            </div>
-        </section>
-    </main>
+    <section class="sm:py-10 sm:px-24 p-8">
+      <div class="max-w-screen-3xl mx-auto">
+        <Nuxt />
+      </div>
+    </section>
+  </main>
 </template>

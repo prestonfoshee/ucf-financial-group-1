@@ -42,5 +42,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  router: {
+    base: '/~pr918790/testing/ucf-financial-group-1-copy/dist/',
   }
 }

@@ -1,4 +1,5 @@
 <script>
+import UcfLogo from '../components/UcfLogo.vue'
   export default {
     data() {
       return {
@@ -36,6 +37,9 @@
       buttonClick() {
         console.log('hi mom')
       },
+    },
+    components: {
+      UcfLogo
     }
   }
 </script>
@@ -44,9 +48,7 @@
   <main class="min-h-screen">
     <section class="flex justify-between items-center px-16 py-3 bg-black">
       <div class="flex items-center">
-          <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="27.5" cy="27.5" r="27.5" fill="#FFC904"/>
-          </svg>
+          <ucf-logo />
           <div class="flex items-center space-x-8">
               <div class="px-6">
                   <h1 class="text-2xl text-main-gold font-medium uppercase">University of Central Florida</h1>
@@ -71,14 +73,14 @@
     <div class="flex justify-center bg-cover w-full h-96" :style="{'background-image': `url(${require('@/assets/img/sky-header.jpg')})`}">
       <div class="flex flex-col space-y-12 py-10 px-16">
         <Nav />
-          <div class="flex justify-center items-center bg-main-gold/50 max-w-sm max-h-36 p-4">
-            <h1 v-if="$route.name === 'budget-calculator'" class="text-white text-5xl text-center font-bold uppercase">{{ budget.headerText }}</h1>
-            <h1 v-else-if="$route.name === 'calendar'" class="text-white text-5xl text-center font-bold uppercase">{{ calendar.headerText }}</h1>
-            <h1 v-else-if="$route.name === 'financial-aid'" class="text-white text-5xl text-center font-bold uppercase">{{ aid.headerText }}</h1>
-            <h1 v-else-if="$route.name === 'scholarships'" class="text-white text-5xl text-center font-bold uppercase">{{ scholarships.headerText }}</h1>
-            <h1 v-else-if="$route.name === 'coupons-and-discounts'" class="text-white text-5xl text-center font-bold uppercase">{{ coupons.headerText }}</h1>
-            <h1 v-else-if="$route.name === 'financial-literacy'" class="text-white text-5xl text-center font-bold uppercase">{{ literacy.headerText }}</h1>
-            <h1 v-else-if="$route.name === 'contact'" class="text-white text-5xl text-center font-bold uppercase">{{ contact.headerText }}</h1>
+          <div class="flex justify-center items-center bg-main-gold/50 max-w-md max-h-36 px-2 py-4">
+            <h1 v-if="$route.name === 'budget-calculator'" class="text-white text-4xl text-center font-bold uppercase">{{ budget.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'calendar'" class="text-white text-4xl text-center font-bold uppercase">{{ calendar.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'financial-aid'" class="text-white text-4xl text-center font-bold uppercase">{{ aid.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'scholarships'" class="text-white text-4xl text-center font-bold uppercase">{{ scholarships.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'coupons-and-discounts'" class="text-white text-4xl text-center font-bold uppercase">{{ coupons.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'financial-literacy'" class="text-white text-4xl text-center font-bold uppercase">{{ literacy.headerText }}</h1>
+            <h1 v-else-if="$route.name === 'contact'" class="text-white text-4xl text-center font-bold uppercase">{{ contact.headerText }}</h1>
           </div>
           <div class="max-w-md">
             <p v-if="$route.name === 'budget-calculator'" class="text-white text-xl font-light">{{ budget.subtitleText }}</p>

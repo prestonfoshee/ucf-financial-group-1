@@ -10,7 +10,7 @@ export default {
 <template>
   <div>
     <div class="flex flex-col space-y-8 mb-8">
-      <h1 class="text-black text-4xl text-center font-bold">Popular Scholarships at UCF</h1>
+      <h1 class="text-black text-3xl text-center font-bold">Popular Scholarships at UCF</h1>
       <text-box
       :header-text="'Florida bright futures'"
       :subtitle-text="'Learn about the state funded program and the awards based on high school academic achievement'"

@@ -13,6 +13,12 @@ module.exports = {
       scale: {
         '30': '.3',
       },
+      width: {
+        '512': '512px',
+      },
+      height: {
+        '341': '341px',
+      },
     },
   },
   variants: {

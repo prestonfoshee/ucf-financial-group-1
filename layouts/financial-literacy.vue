@@ -94,7 +94,7 @@ import UcfLogo from '../components/UcfLogo.vue'
       </div>
     </div>
 
-    <section class="sm:py-10 sm:px-24 p-8">
+    <section class="py-10">
       <div class="max-w-screen-3xl mx-auto">
         <Nuxt />
       </div>

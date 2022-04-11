@@ -8,12 +8,12 @@ export default {
 
 <template>
   <div>
-    <div class="flex flex-col space-y-6 p-10 w-full">
-      <div class="flex flex-col space-y-5 pb-3">
+    <div class="flex flex-col space-y-10 w-full">
+      <div class="flex flex-col space-y-5 pb-3 px-16">
         <h2 class="text-white text-4xl font-bold">A Financial Resource for Every Student</h2>
         <div class="w-40 border-b-2 border-main-gold"></div>
       </div>
-      <div class="flex justify-between">
+      <div class="flex justify-between px-16">
         <div class="flex flex-col space-y-4">
           <div class="max-w-3xl">
             <p class="text-white text-lg font-light">Financial Literacy means confidently understanding and
@@ -35,10 +35,22 @@ export default {
       </div>
       <div class="w-64 h-64 bg-gray-400"></div>
       </div>
-      <div class="relative">
+      <div class="relative w-full">
         <financial-literacy-banner />
         <h2 class="absolute top-10 left-20 text-sm lg:top-5 lg:left-48 lg:text-3xl md:left-40 md:top-8 md:text-xl font-bold text-black">Understanding Loans</h2>
         <p class="absolute top-14 left-20 text-xs lg:top-14 lg:left-48 lg:text-lg md:left-40 md:text-base font-light text-black">(Interest rates and more)</p>
+      </div>
+      <div class="flex justify-center space-x-8">
+        <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
+          <div class="flex justify-center items-center bg-no-repeat w-512 h-341" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+            <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Private Loans</h3>
+          </div>
+        </a>
+        <a href="https://studentaid.gov/understand-aid/types/loans" target="_blank">
+          <div class="flex justify-center items-center bg-no-repeat w-512 h-341" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+            <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">FAFSA</h3>
+          </div>
+        </a>
       </div>
     </div>
   </div>

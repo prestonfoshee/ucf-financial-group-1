@@ -45,7 +45,7 @@ import UcfLogo from '../components/UcfLogo.vue'
 </script>
 
 <template>
-  <main class="min-h-screen">
+  <main class="min-h-screen bg-black">
     <section class="flex justify-between items-center px-16 py-3 bg-black">
       <div class="flex items-center">
           <ucf-logo />

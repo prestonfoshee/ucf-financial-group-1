@@ -10,16 +10,65 @@ export default {
 <template>
   <div class="flex flex-col space-y-12">
     <h1 class="text-black text-3xl text-center font-bold">Find Student Discounts & Offers</h1>
-    <div class="flex flex-col space-y-4">
+    <div class="flex flex-col space-y-8">
       <div class="pb-3 border-b border-main-gold">
         <h2 class="text-black text-2xl font-bold">Technology & Media</h2>
       </div>
-      <p class="text-black text-xl font-semibold">Adobe</p>
-      <p class="text-black text-lg font-light">Adobe products are currently <span class="underline">almost 70% off</span> with current Black Friday deals</p>
-      <p class="text-black text-xl font-semibold">Amazon Prime</p>
-      <p class="text-black text-lg font-light">Amazon offers students a free 6 month trial of Amazon Prime, with the service being half off at $49 after the initial 6 months are over.</p>
-      <p class="text-black text-xl font-semibold">Microsoft Office</p>
-      <p class="text-black text-lg font-light">Microsoft Office is free for students!</p>
+      <div class="flex flex-col space-y-2">
+        <p class="text-black text-xl font-semibold">Adobe</p>
+        <p class="text-black text-lg font-light">UCF students can get the Adobe creative suite of products for <span class="font-bold underline">$19.99 a month</span>, down from the usual price of $52.99 a month.</p>
+        <a href="" class="flex items-center justify-center max-w-min p-3 text-black text-md whitespace-nowrap font-semibold bg-main-gold rounded">Adobe signup</a>
+      </div>
+      <div class="flex flex-col space-y-2">
+        <p class="text-black text-xl font-semibold">Amazon Prime</p>
+        <p class="text-black text-lg font-light">Amazon offers students a free 6 month trial of Amazon Prime, with the service being half off at $49 after the initial 6 months are over.</p>
+        <a href="" class="flex items-center justify-center max-w-min p-3 text-black text-md whitespace-nowrap font-semibold bg-main-gold rounded">Prime Student</a>
+      </div>
+      <div class="flex flex-col space-y-2">
+        <p class="text-black text-xl font-semibold">Apple</p>
+        <p class="text-black text-lg font-light">Apple offers educational pricing on certain products including iPads, MacBooks and iPhones.</p>
+        <a href="" class="flex items-center justify-center max-w-min p-3 text-black text-md whitespace-nowrap font-semibold bg-main-gold rounded">Apple EDU store</a>
+      </div>
+      <div class="flex flex-col space-y-2">
+        <p class="text-black text-xl font-semibold">Microsoft Office</p>
+        <p class="text-black text-lg font-light">Microsoft Office is free for students!</p>
+        <a href="" class="flex items-center justify-center max-w-min p-3 text-black text-md whitespace-nowrap font-semibold bg-main-gold rounded">MS Office download page</a>
+      </div>
+    </div>
+    <div class="flex flex-col space-y-8">
+      <div class="pb-3 border-b border-main-gold">
+        <h2 class="text-black text-2xl font-bold">Clothing & Furniture</h2>
+      </div>
+      <div class="flex flex-col space-y-2">
+        <p class="text-black text-xl font-semibold">UNiDAYS</p>
+        <p class="text-black text-lg font-light">UNiDAYS is a one stop shop for hundreds of discounts from very notable retailers.
+        By making a UNiDAYS account you will gain access to all these student discounts. Levis, Adidas, and Tillys are just some of the
+        retailers you can find with UNiDAYS.</p>
+        <a href="" class="flex items-center justify-center max-w-min p-3 text-black text-md whitespace-nowrap font-semibold bg-main-gold rounded">UNiDAYS signup</a>
+      </div>
+      <div class="flex flex-col space-y-2">
+        <p class="text-black text-xl font-semibold">SheerID</p>
+        <p class="text-black text-lg font-light">SheerID is similar to UNiDAYS as with one account you can unlock hundreds of discounts
+        from retailers like Nike and Peloton. Just create an account using your Knights email account.</p>
+        <a href="" class="flex items-center justify-center max-w-min p-3 text-black text-md whitespace-nowrap font-semibold bg-main-gold rounded">Sheer student deals</a>
+      </div>
+      <div class="flex flex-col space-y-2">
+        <p class="text-black text-xl font-semibold">UCF Gear</p>
+        <p class="text-black text-lg font-light">Sign up at shops.ucfknights.com to receive 10% off your purchase. There you can find all
+        your official UCF Gear needs and deck yourself out head to toe in UCF pride!</p>
+        <a href="" class="flex items-center justify-center max-w-min p-3 text-black text-md whitespace-nowrap font-semibold bg-main-gold rounded">UCF shop</a>
+      </div>
+    </div>
+    <div class="flex flex-col space-y-8">
+      <div class="pb-3 border-b border-main-gold">
+        <h2 class="text-black text-2xl font-bold">Events</h2>
+      </div>
+      <div class="flex flex-col space-y-2">
+        <p class="text-black text-xl font-semibold">SGA Ticket Center</p>
+        <p class="text-black text-lg font-light">The SGA Ticket Center is open Monday thru Saturday and offers discounts to popular attractions
+        around central Florida. Check their website for ticket availability as experiences sell out quickly!</p>
+        <a href="" class="flex items-center justify-center max-w-min p-3 text-black text-md whitespace-nowrap font-semibold bg-main-gold rounded">SGA Tickets</a>
+      </div>
     </div>
     <div class="flex flex-col space-y-4">
       <div class="pb-3 border-b border-main-gold">

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="grid gap-6 grid-cols-2 grid-rows-4 md:grid-cols-3 md:grid-rows-3 lg:grid-cols-4 lg:grid-rows-2 mb-20" style="text-shadow: -3px 3px 3px #000000;">
+  <div class="grid gap-6 grid-cols-2 grid-rows-4 md:grid-cols-3 md:grid-rows-3 lg:grid-cols-4 lg:grid-rows-2 mb-20 px-24" style="text-shadow: -3px 3px 3px #000000;">
 
     <NuxtLink to="/budget-calculator">
       <div class="flex flex-col justify-center items-center relative h-72 transition hover:scale-105 duration-150 hover:cursor-pointer">

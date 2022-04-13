@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div class="flex flex-col space-y-6">
+  <div class="flex flex-col space-y-6 py-8 bg-zinc-700">
     <h1 class="text-2xl text-main-gold text-center font-semibold uppercase">University of Central Florida</h1>
     <div class="flex justify-center space-x-5">
       <SocialIcon />

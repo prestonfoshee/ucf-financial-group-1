@@ -24,7 +24,7 @@ export default {
       </a>
     </div>
   </section>
-  <section class="sm:py-10 sm:px-24 px-8 py-8">
+  <section class="">
     <div class="max-w-screen-3xl mx-auto">
       <Nuxt />
     </div>

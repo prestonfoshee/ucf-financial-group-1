@@ -94,8 +94,8 @@ import UcfLogo from '../components/UcfLogo.vue'
     <section class="">
       <div class="max-w-screen-3xl mx-auto space-y-32">
         <Nuxt />
-        <Footer />
       </div>
+      <Footer />
     </section>
   </main>
 </template>

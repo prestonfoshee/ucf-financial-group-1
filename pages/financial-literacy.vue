@@ -18,7 +18,7 @@ export default {
 
 <template>
   <div>
-    <div class="flex flex-col space-y-20 w-full">
+    <div class="flex flex-col space-y-16 w-full">
       <div class="flex flex-col space-y-5 pb-3 px-16">
         <h2 class="text-white text-4xl font-bold">A Financial Resource for Every Student</h2>
         <div class="w-40 border-b-2 border-main-gold"></div>
@@ -47,7 +47,7 @@ export default {
       </div>
 
       <div class="space-y-10">
-        <div class="flex items-center px-16 w-full bg-main-gold">
+        <div class="flex items-center justify-center px-16 w-full bg-main-gold">
           <building-icon />
           <div class="flex flex-col">
             <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black text-center">Understanding Loans</h2>
@@ -69,7 +69,7 @@ export default {
       </div>
 
       <div class="space-y-10">
-        <div class="flex items-center px-16 w-full bg-main-gold">
+        <div class="flex items-center justify-center px-16 w-full bg-main-gold">
           <CardIcon />
           <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black">Understanding Credit</h2>
         </div>
@@ -93,7 +93,7 @@ export default {
       </div>
 
       <div class="space-y-10">
-        <div class="flex items-center px-16 space-x-4 w-full bg-main-gold">
+        <div class="flex items-center justify-center px-16 space-x-4 w-full bg-main-gold">
           <BudgetingIcon />
           <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black">Budgeting</h2>
         </div>
@@ -112,7 +112,7 @@ export default {
       </div>
 
       <div class="space-y-10">
-        <div class="flex items-center px-16 w-full bg-main-gold">
+        <div class="flex items-center justify-center px-16 w-full bg-main-gold">
           <SavingIcon />
           <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black">Saving</h2>
         </div>

@@ -65,11 +65,11 @@ import UcfLogo from '../components/UcfLogo.vue'
       </div>
     </section>
 
-    <div class="flex justify-center bg-cover w-full lg:h-550" :style="{'background-image': `url(${require('@/assets/img/budget-calculator-header.jpg')})`}">
+    <div class="flex justify-center bg-cover w-full lg:h-550" :style="{'background-image': `url(${require('@/assets/img/calendar-header.jpg')})`}">
       <div class="flex flex-col space-y-24 py-10 px-16">
         <Nav />
         <div class="flex flex-col justify-center space-y-8">
-          <div class="flex justify-center items-center bg-main-gold/50 max-w-sm p-4">
+          <div class="flex justify-center items-center bg-main-gold/50 max-w-lg p-4">
             <h1 v-if="$route.name === 'budget-calculator'" class="text-white text-5xl  font-bold uppercase">{{ budget.headerText }}</h1>
             <h1 v-else-if="$route.name === 'calendar'" class="text-white text-5xl  font-bold uppercase">{{ calendar.headerText }}</h1>
             <h1 v-else-if="$route.name === 'financial-aid'" class="text-white text-5xl  font-bold uppercase">{{ aid.headerText }}</h1>

@@ -47,12 +47,12 @@
       </div>
     </NuxtLink>
 
-    <NuxtLink to="/financial-events">
+    <!-- <NuxtLink to="/financial-events">
       <div class="flex flex-col justify-center items-center relative h-72 transition hover:scale-110 duration-150 hover:cursor-pointer">
         <img src="~/assets/img/financial-events.jpg" class="w-full h-full object-cover absolute">
         <h3 class="text-3xl text-white font-bold text-center absolute left-0 right-0">Financial Events</h3>
       </div>
-    </NuxtLink>
+    </NuxtLink> -->
 
     <NuxtLink to="/contact">
       <div class="flex flex-col justify-center items-center relative h-72 transition hover:scale-110 duration-150 hover:cursor-pointer">

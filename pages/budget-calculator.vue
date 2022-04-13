@@ -1,6 +1,6 @@
 <script>
 export default {
-  layout: 'default',
+  layout: 'budget-calculator',
 
   data() {
     return {

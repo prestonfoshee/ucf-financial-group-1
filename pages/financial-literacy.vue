@@ -1,14 +1,24 @@
 <script>
 import FinancialLiteracyBanner from '../components/FinancialLiteracyBanner.vue'
+import BuildingIcon from '../components/BuildingIcon.vue'
+import CardIcon from '../components/CardIcon.vue'
+import BudgetingIcon from '../components/BudgetingIcon.vue'
+import SavingIcon from '../components/SavingIcon.vue'
 export default {
-  components: { FinancialLiteracyBanner },
-    layout: 'financial-literacy'
-  }
+  components: {
+    FinancialLiteracyBanner,
+    BuildingIcon,
+    CardIcon,
+    BudgetingIcon,
+    SavingIcon,
+   },
+  layout: 'financial-literacy'
+}
 </script>
 
 <template>
   <div>
-    <div class="flex flex-col space-y-10 w-full">
+    <div class="flex flex-col space-y-20 w-full">
       <div class="flex flex-col space-y-5 pb-3 px-16">
         <h2 class="text-white text-4xl font-bold">A Financial Resource for Every Student</h2>
         <div class="w-40 border-b-2 border-main-gold"></div>
@@ -35,23 +45,91 @@ export default {
       </div>
       <div class="w-64 h-64 bg-gray-400"></div>
       </div>
-      <div class="relative w-full">
-        <financial-literacy-banner />
-        <h2 class="absolute top-10 left-20 text-sm lg:top-5 lg:left-48 lg:text-3xl md:left-40 md:top-8 md:text-xl font-bold text-black">Understanding Loans</h2>
-        <p class="absolute top-14 left-20 text-xs lg:top-14 lg:left-48 lg:text-lg md:left-40 md:text-base font-light text-black">(Interest rates and more)</p>
-      </div>
-      <div class="flex justify-center space-x-8">
-        <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
-          <div class="flex justify-center items-center bg-no-repeat w-512 h-341" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
-            <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Private Loans</h3>
+
+      <div class="space-y-10">
+        <div class="flex items-center px-16 w-full bg-main-gold">
+          <building-icon />
+          <div class="flex flex-col">
+            <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black text-center">Understanding Loans</h2>
+            <p class="text-xs lg:text-lg md:text-base font-light text-black text-center">(Interest rates and more)</p>
           </div>
-        </a>
-        <a href="https://studentaid.gov/understand-aid/types/loans" target="_blank">
-          <div class="flex justify-center items-center bg-no-repeat w-512 h-341" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
-            <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">FAFSA</h3>
-          </div>
-        </a>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-16">
+          <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
+            <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+              <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Private Loans</h3>
+            </div>
+          </a>
+          <a href="https://studentaid.gov/understand-aid/types/loans" target="_blank">
+            <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+              <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">FAFSA</h3>
+            </div>
+          </a>
+        </div>
       </div>
+
+      <div class="space-y-10">
+        <div class="flex items-center px-16 w-full bg-main-gold">
+          <CardIcon />
+          <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black">Understanding Credit</h2>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
+          <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
+            <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+              <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Credit Scores & Reports</h3>
+            </div>
+          </a>
+          <a href="https://studentaid.gov/understand-aid/types/loans" target="_blank">
+            <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255 px-4" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+              <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Federal Trade Commission (FTC)</h3>
+            </div>
+          </a>
+          <a href="https://studentaid.gov/understand-aid/types/loans" target="_blank">
+            <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+              <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Types of Credit</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="space-y-10">
+        <div class="flex items-center px-16 space-x-4 w-full bg-main-gold">
+          <BudgetingIcon />
+          <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black">Budgeting</h2>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
+          <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
+            <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+              <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Guide to Budgeting 101</h3>
+            </div>
+          </a>
+          <a href="https://studentaid.gov/understand-aid/types/loans" target="_blank">
+            <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255 px-4" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+              <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Intuit Mini Budget Planner</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="space-y-10">
+        <div class="flex items-center px-16 w-full bg-main-gold">
+          <SavingIcon />
+          <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black">Saving</h2>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
+          <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
+            <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+              <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Tips for Saving</h3>
+            </div>
+          </a>
+          <a href="https://studentaid.gov/understand-aid/types/loans" target="_blank">
+            <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255 px-4" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
+              <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Saving in College</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>

@@ -4,6 +4,7 @@ export default {
   components: {
     TextBox,
   },
+  layout: 'scholarships'
 }
 </script>
 

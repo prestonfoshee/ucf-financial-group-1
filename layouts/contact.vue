@@ -40,7 +40,7 @@ import UcfLogo from '../components/UcfLogo.vue'
 </script>
 
 <template>
-  <main class="min-h-screen bg-black">
+  <main class="min-h-screen bg-white">
     <section class="flex justify-between items-center px-16 py-3 bg-black">
       <div class="flex items-center">
           <ucf-logo />
@@ -65,7 +65,7 @@ import UcfLogo from '../components/UcfLogo.vue'
       </div>
     </section>
 
-    <div class="flex justify-center bg-cover w-full h-96" :style="{'background-image': `url(${require('@/assets/img/ucf-pegasus-header.jpg')})`}">
+    <div class="flex justify-center bg-cover w-full h-96" :style="{'background-image': `url(${require('@/assets/img/contact-header.jpg')})`}">
       <div class="flex flex-col space-y-12 py-10 px-16">
         <Nav />
           <div class="flex justify-center items-center bg-main-gold/50 max-w-md max-h-36 px-2 py-4">

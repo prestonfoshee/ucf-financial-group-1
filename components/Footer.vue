@@ -1,5 +1,5 @@
 <script>
-import SocialIcon from '../SocialIcon.vue'
+import SocialIcon from './SocialIcon.vue'
 export default {
   components: {
     SocialIcon,

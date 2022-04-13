@@ -1,6 +1,6 @@
 <script>
 import NavGrid from '../components/home/NavGrid.vue'
-import Footer from '../components/home/Footer.vue'
+import Footer from '../components/Footer.vue'
 export default {
     layout: 'home',
     components: {

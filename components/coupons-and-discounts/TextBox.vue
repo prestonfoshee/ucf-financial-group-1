@@ -8,8 +8,8 @@ export default {
 
 <template>
   <div>
-    <div class="flex flex-col space-y-4 bg-black rounded-lg px-4 py-6">
-      <h2 v-text="text" class="text-main-gold text-xl text-center font-semibold uppercase"></h2>
+    <div class="flex justify-center items-center w-72 m-4 bg-main-gold rounded-xl px-4 py-6">
+      <h2 v-text="text" class="text-black text-xl text-center font-semibold whitespace-nowrap"></h2>
     </div>
   </div>
 </template>

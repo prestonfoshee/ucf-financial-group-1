@@ -55,13 +55,13 @@
                   Financial Literacy
               </NuxtLink>
           </li>
-          <li>
+          <!-- <li>
               <NuxtLink to="/financial-events"
               class="font-medium hover:underline"
               :class="$route.name === 'financial-events' ? 'underline'  : null">
                   Financial Events
               </NuxtLink>
-          </li>
+          </li> -->
           <li>
               <NuxtLink to="/contact"
               class="font-medium hover:underline"

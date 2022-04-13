@@ -1,6 +1,6 @@
 <script>
 export default {
-
+  layout: 'financial-aid',
 }
 </script>
 

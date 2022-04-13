@@ -19,7 +19,7 @@ export default {
       </div>
     </div>
     <div class="flex space-x-10 text-main-gold">
-      <a href="/logout" :text="'Sign up'" as="button" method="post">
+      <a href="" :text="'Sign up'" as="button" method="post">
         Logout
       </a>
     </div>

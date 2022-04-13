@@ -22,7 +22,13 @@ export default {
             </p>
           </div>
         </div>
-        <img src="~/assets/img/financial-aid-person-1.jpg" alt="" class=" rounded-xl">
+        <div class="flex flex-col space-y-6 text-black text-center">
+          <div class="bg-white p-8">
+            <p class="uppercase font-light text-2xl">UCF School Code:</p>
+            <p class="font-bold text-2xl">003954</p>
+          </div>
+        </div>
+        <!-- <img src="~/assets/img/financial-aid-person-1.jpg" alt="" class=" rounded-xl"> -->
       </div>
       <div class="flex justify-center space-x-4">
         <img src="~/assets/img/financial-aid-person-2.jpg" alt="" class="rounded-full">

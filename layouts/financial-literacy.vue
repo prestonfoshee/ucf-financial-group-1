@@ -65,7 +65,7 @@ import UcfLogo from '../components/UcfLogo.vue'
       </div>
     </section>
 
-    <div class="flex justify-center bg-center bg-no-repeat w-full lg:bg-cover lg:h-550" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-header.jpg')})`}">
+    <div class="flex justify-center bg-right bg-no-repeat w-full lg:bg-cover lg:h-550" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-header.jpg')})`}">
       <div class="flex flex-col space-y-24 py-10 px-16">
         <Nav />
         <div class="flex flex-col justify-center space-y-8">

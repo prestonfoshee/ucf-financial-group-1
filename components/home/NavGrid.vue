@@ -3,19 +3,12 @@
 </script>
 
 <template>
-  <div class="grid gap-6 grid-cols-2 grid-rows-4 md:grid-cols-3 md:grid-rows-3 lg:grid-cols-4 lg:grid-rows-2 mb-20 px-24" style="text-shadow: -3px 3px 3px #000000;">
+  <div class="grid gap-6 grid-cols-2 grid-rows-3 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 mb-20 px-2 md:px-12 lg:px-25" style="text-shadow: -3px 3px 3px #000000;">
 
     <NuxtLink to="/budget-calculator">
       <div class="flex flex-col justify-center items-center relative h-72 transition hover:scale-105 duration-150 hover:cursor-pointer">
         <img src="~/assets/img/budget-calculator.jpg" class="w-full h-full object-cover absolute">
           <h3 class="text-3xl text-white font-bold text-center absolute left-0 right-0">Budget Calculator</h3>
-      </div>
-    </NuxtLink>
-
-    <NuxtLink to="/calendar">
-      <div class="flex flex-col justify-center items-center relative h-72 transition hover:scale-105 duration-150 hover:cursor-pointer">
-        <img src="~/assets/img/calendar.jpg" class="w-full h-full object-cover absolute">
-        <h3 class="text-3xl text-white font-bold text-center absolute left-0 right-0">Calendar</h3>
       </div>
     </NuxtLink>
 

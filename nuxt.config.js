@@ -45,6 +45,6 @@ export default {
   },
 
   router: {
-    base: '/~pr918790/testing/ucf-financial-group-1-copy/dist/',
+    base: '/~pr918790/testing/ucf-financial-group-1-new-test-copy/dist/',
   }
 }

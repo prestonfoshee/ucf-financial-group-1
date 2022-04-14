@@ -20,13 +20,6 @@
               </NuxtLink>
           </li>
           <li>
-              <NuxtLink to="/calendar"
-              class="font-medium hover:bg-black/90 p-4 transition duration-300"
-              :class="{ 'bg-gray-400/80 p-4': $route.name === 'calendar' }">
-                  Calendar
-              </NuxtLink>
-          </li>
-          <li>
               <NuxtLink to="/financial-aid"
               class="font-medium hover:bg-black/90 p-4 transition duration-300"
               :class="{ 'bg-gray-400/80 p-4': $route.name === 'financial-aid' }">

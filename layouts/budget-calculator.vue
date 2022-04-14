@@ -67,7 +67,7 @@ import UcfLogo from '../components/UcfLogo.vue'
 
     <div class="flex justify-center bg-right bg-no-repeat w-full lg:bg-cover lg:h-550" :style="{'background-image': `url(${require('@/assets/img/budget-calculator-header.jpg')})`}">
       <div class="flex flex-col space-y-24 py-10 px-16">
-        <!-- <Nav /> -->
+        <Nav />
         <div class="flex flex-col justify-center space-y-8">
           <div class="flex justify-center items-center bg-main-gold/50 max-w-sm p-4">
             <h1 v-if="$route.name === 'budget-calculator'" class="text-white text-5xl  font-bold uppercase">{{ budget.headerText }}</h1>

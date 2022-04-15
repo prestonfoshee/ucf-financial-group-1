@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@include font-face( Gotham, '~/assets/fonts/Gotham-Light', 300, light, otf);
+@include font-face( Gotham, '~/assets/fonts/GothamBook', 400, normal, ttf);
+@include font-face( Gotham, '~/assets/fonts/GothamMedium', 500, medium, ttf);
+@include font-face( Gotham, '~/assets/fonts/Gotham-Bold', 700, bold, otf);

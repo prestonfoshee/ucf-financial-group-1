@@ -71,7 +71,7 @@ import UcfLogo from '../components/UcfLogo.vue'
           <Nav class="absolute right-0 lg:static" />
         </div>
         <div class="flex flex-col justify-center items-center lg:items-start space-y-8 mt-16 lg:mt-0">
-          <div class="flex justify-center items-center bg-main-gold/50 max-w-sm p-4">
+          <div class="flex justify-center items-center max-w-md tracking-widest">
             <h1 v-if="$route.name === 'budget-calculator'" class="text-white text-5xl  font-bold uppercase">{{ budget.headerText }}</h1>
             <h1 v-else-if="$route.name === 'calendar'" class="text-white text-5xl  font-bold uppercase">{{ calendar.headerText }}</h1>
             <h1 v-else-if="$route.name === 'financial-aid'" class="text-white text-5xl  font-bold uppercase">{{ aid.headerText }}</h1>
@@ -81,13 +81,13 @@ import UcfLogo from '../components/UcfLogo.vue'
             <h1 v-else-if="$route.name === 'contact'" class="text-white text-5xl  font-bold uppercase">{{ contact.headerText }}</h1>
           </div>
           <div class="max-w-sm">
-            <p v-if="$route.name === 'budget-calculator'" class="text-white text-3xl font-extralight">{{ budget.subtitleText }}</p>
-            <p v-else-if="$route.name === 'calendar'" class="text-white text-3xl font-extralight">{{ calendar.subtitleText }}</p>
-            <p v-else-if="$route.name === 'financial-aid'" class="text-white text-3xl font-extralight">{{ aid.subtitleText }}</p>
-            <p v-else-if="$route.name === 'scholarships'" class="text-white text-3xl font-extralight">{{ scholarships.subtitleText }}</p>
-            <p v-else-if="$route.name === 'coupons-and-discounts'" class="text-white text-3xl font-extralight">{{ coupons.subtitleText }}</p>
-            <p v-else-if="$route.name === 'financial-literacy'" class="text-white text-3xl font-extralight">{{ literacy.subtitleText }}</p>
-            <p v-else-if="$route.name === 'contact'" class="text-white text-3xl font-extralight">{{ contact.subtitleText }}</p>
+            <p v-if="$route.name === 'budget-calculator'" class="text-white text-3xl font-light">{{ budget.subtitleText }}</p>
+            <p v-else-if="$route.name === 'calendar'" class="text-white text-3xl font-light">{{ calendar.subtitleText }}</p>
+            <p v-else-if="$route.name === 'financial-aid'" class="text-white text-3xl font-light">{{ aid.subtitleText }}</p>
+            <p v-else-if="$route.name === 'scholarships'" class="text-white text-3xl font-light">{{ scholarships.subtitleText }}</p>
+            <p v-else-if="$route.name === 'coupons-and-discounts'" class="text-white text-3xl font-light">{{ coupons.subtitleText }}</p>
+            <p v-else-if="$route.name === 'financial-literacy'" class="text-white text-3xl font-light">{{ literacy.subtitleText }}</p>
+            <p v-else-if="$route.name === 'contact'" class="text-white text-3xl font-light">{{ contact.subtitleText }}</p>
           </div>
         </div>
       </div>

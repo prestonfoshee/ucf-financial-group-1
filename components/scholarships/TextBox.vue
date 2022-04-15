@@ -10,10 +10,10 @@ export default {
 
 <template>
   <div>
-    <div class="flex flex-col space-y-4 w-full border-2 border-gray-300 rounded-lg py-6">
+    <div class="flex flex-col space-y-4 w-full border-2 border-gray-300 rounded-lg py-6 px-10">
       <h2
       v-text="headerText"
-      class="text-lg lg:text-3xl text-center font-semibold"
+      class="text-lg lg:text-3xl text-center font-semibold 2xl:whitespace-nowrap"
       :class="{ 'text-3xl text-center font-semibold uppercase': type === 'top' }"
       >
       </h2>

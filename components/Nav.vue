@@ -21,7 +21,7 @@ export default {
 <template>
   <div>
     <nav class="hidden lg:block">
-        <ul class="flex space-x-6 text-white whitespace-nowrap" style="text-shadow: -3px 3px 3px #000000;">
+        <ul class="flex space-x-6 text-white whitespace-nowrap tracking-wider" >
             <li>
                 <NuxtLink to="/"
                 class="font-medium hover:bg-black/90 p-4 transition duration-300">

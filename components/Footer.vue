@@ -17,7 +17,7 @@ export default {
   <div class="flex flex-col items-center space-y-8 py-8 bg-zinc-700">
     <div class="flex flex-col items-center space-y-4">
       <div>
-        <h1 class="text-2xl text-main-gold text-center font-semibold uppercase">University of Central Florida</h1>
+        <h1 class="text-2xl text-main-gold text-center uppercase tracking-widest">University of Central Florida</h1>
       </div>
       <div class="flex space-x-4 w-64">
         <facebook-icon />

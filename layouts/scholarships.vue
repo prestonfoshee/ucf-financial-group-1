@@ -63,7 +63,7 @@ import UcfLogo from '../components/UcfLogo.vue'
           <Nav class="absolute right-0 lg:static" />
         </div>
         <div class="flex flex-col justify-center items-center lg:items-start space-y-8 mt-16 lg:mt-0">
-          <div class="flex justify-center items-center bg-main-gold/50 max-w-sm p-4">
+          <div class="flex justify-center items-center max-w-md">
             <h1 v-if="$route.name === 'budget-calculator'" class="text-white text-5xl  font-bold uppercase">{{ budget.headerText }}</h1>
             <h1 v-else-if="$route.name === 'calendar'" class="text-white text-5xl  font-bold uppercase">{{ calendar.headerText }}</h1>
             <h1 v-else-if="$route.name === 'financial-aid'" class="text-white text-5xl  font-bold uppercase">{{ aid.headerText }}</h1>

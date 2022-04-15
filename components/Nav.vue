@@ -24,49 +24,48 @@ export default {
         <ul class="flex space-x-6 text-white whitespace-nowrap tracking-wider" >
             <li>
                 <NuxtLink to="/"
-                class="font-medium hover:bg-black/90 p-4 transition duration-300">
-                    Home
+                class="font-bold hover:bg-black/90 px-4 pb-3 pt-6 transition duration-300">Home
                 </NuxtLink>
             </li>
             <li>
                 <NuxtLink to="/financial-aid"
-                class="font-medium hover:bg-black/90 p-4 transition duration-300"
-                :class="{ 'bg-gray-400/80 p-4': $route.name === 'financial-aid' }">
+                class="font-bold hover:bg-black/90 px-4 pb-3 pt-6 transition duration-300"
+                :class="{ 'bg-gray-400/80 px-4 pb-3 pt-6': $route.name === 'financial-aid' }">
                     Financial Aid
                 </NuxtLink>
             </li>
             <li>
                 <NuxtLink to="/scholarships"
-                class="font-medium hover:bg-black/90 p-4 transition duration-300"
-                :class="{ 'bg-gray-400/80 p-4': $route.name === 'scholarships' }">
+                class="font-bold hover:bg-black/90 px-4 pb-3 pt-6 transition duration-300"
+                :class="{ 'bg-gray-400/80 px-4 pb-3 pt-6': $route.name === 'scholarships' }">
                     Scholarships
                 </NuxtLink>
             </li>
             <li>
                 <NuxtLink to="/coupons-and-discounts"
-                class="font-medium hover:bg-black/90 p-4 transition duration-300"
-                :class="{ 'bg-gray-400/80 p-4': $route.name === 'coupons-and-discounts' }">
+                class="font-bold hover:bg-black/90 px-4 pb-3 pt-6 transition duration-300"
+                :class="{ 'bg-gray-400/80 px-4 pb-3 pt-6': $route.name === 'coupons-and-discounts' }">
                     Coupons & Discounts
                 </NuxtLink>
             </li>
             <li>
                 <NuxtLink to="/financial-literacy"
-                class="font-medium hover:bg-black/90 p-4 transition duration-300"
-                :class="{ 'bg-gray-400/80 p-4': $route.name === 'financial-literacy' }">
+                class="font-bold hover:bg-black/90 px-4 pb-3 pt-6 transition duration-300"
+                :class="{ 'bg-gray-400/80 px-4 pb-3 pt-6': $route.name === 'financial-literacy' }">
                     Financial Literacy
                 </NuxtLink>
             </li>
             <li>
                 <NuxtLink to="/budget-calculator"
-                class="font-medium hover:bg-black/90 p-4 transition duration-300"
-                :class="{ 'bg-gray-400/80 p-4': $route.name === 'budget-calculator' }">
+                class="font-bold hover:bg-black/90 px-4 pb-3 pt-6 transition duration-300"
+                :class="{ 'bg-gray-400/80 px-4 pb-3 pt-6': $route.name === 'budget-calculator' }">
                     Budget Calculator
                 </NuxtLink>
             </li>
             <li>
                 <NuxtLink to="/contact"
-                class="font-medium hover:bg-black/90 p-4 transition duration-300"
-                :class="{ 'bg-gray-400/80 p-4': $route.name === 'contact' }">
+                class="font-bold hover:bg-black/90 px-4 pb-3 pt-6 transition duration-300"
+                :class="{ 'bg-gray-400/80 px-4 pb-3 pt-6': $route.name === 'contact' }">
                     Contact Us
                 </NuxtLink>
             </li>
@@ -78,48 +77,48 @@ export default {
       <ul v-show="toggled" class="flex flex-col items-center space-y-6 md:space-y-10 text-white bg-zinc-700/90 w-screen py-4">
         <li>
           <NuxtLink to="/"
-          class="font-medium p-4 transition duration-300">
+          class="font-bold p-4 transition duration-300">
               Home
           </NuxtLink>
         </li>
         <li>
             <NuxtLink to="/financial-aid"
-            class="font-medium hover:bg-black/90 p-4 transition duration-300"
+            class="font-bold hover:bg-black/90 p-4 transition duration-300"
             :class="{ 'bg-gray-400/80 py-4 px-24': $route.name === 'financial-aid' }">
                 Financial Aid
             </NuxtLink>
         </li>
         <li>
             <NuxtLink to="/scholarships"
-            class="font-medium hover:bg-black/90 p-4 transition duration-300"
+            class="font-bold hover:bg-black/90 p-4 transition duration-300"
             :class="{ 'bg-gray-400/80 p-4 px-24': $route.name === 'scholarships' }">
                 Scholarships
             </NuxtLink>
         </li>
         <li>
             <NuxtLink to="/coupons-and-discounts"
-            class="font-medium hover:bg-black/90 p-4 transition duration-300"
+            class="font-bold hover:bg-black/90 p-4 transition duration-300"
             :class="{ 'bg-gray-400/80 p-4 px-24': $route.name === 'coupons-and-discounts' }">
                 Coupons & Discounts
             </NuxtLink>
         </li>
         <li>
             <NuxtLink to="/financial-literacy"
-            class="font-medium hover:bg-black/90 p-4 transition duration-300"
+            class="font-bold hover:bg-black/90 p-4 transition duration-300"
             :class="{ 'bg-gray-400/80 p-4 px-24': $route.name === 'financial-literacy' }">
                 Financial Literacy
             </NuxtLink>
         </li>
         <li>
             <NuxtLink to="/budget-calculator"
-            class="font-medium hover:bg-black/90 p-4 transition duration-300"
+            class="font-bold hover:bg-black/90 p-4 transition duration-300"
             :class="{ 'bg-gray-400/80 p-4 px-24': $route.name === 'budget-calculator' }">
                 Budget Calculator
             </NuxtLink>
         </li>
         <li>
             <NuxtLink to="/contact"
-            class="font-medium hover:bg-black/90 p-4 transition duration-300"
+            class="font-bold hover:bg-black/90 p-4 transition duration-300"
             :class="{ 'bg-gray-400/80 p-4 px-24': $route.name === 'contact' }">
                 Contact Us
             </NuxtLink>

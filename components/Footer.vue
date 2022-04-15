@@ -27,7 +27,7 @@ export default {
         <instagram-icon />
       </div>
     </div>
-      <ul class="flex flex-wrap px-4 text-xs gap-3 justify-center text-white font-light md:flex-nowrap md:text-sm md:px-0">
+      <ul class="flex flex-wrap px-4 text-xs gap-3 justify-center text-white md:flex-nowrap md:text-sm lg:px-0">
         <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/about-ucf/" target="_blank">About UCF</a></li>
         <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/contact-ucf/" target="_blank">Contact US</a></li>
         <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/faculty/" target="_blank">Faculty</a></li>
@@ -40,9 +40,9 @@ export default {
         <li class=""><a href="https://www.ucf.edu/news/" target="_blank">UCF News</a></li>
       </ul>
     <div class=" space-y-2">
-      <p class="text-white text-sm text-center font-light">4000 Central Florida Blvd. Orlando, Florida, 32816</p>
-      <p class="text-white text-sm text-center font-light underline">407.823.2000</p>
-      <p class="text-white text-sm text-center font-light">&copy; University of Central Florida</p>
+      <p class="text-white text-sm text-center">4000 Central Florida Blvd. Orlando, Florida, 32816</p>
+      <p class="text-white text-sm text-center underline">407.823.2000</p>
+      <p class="text-white text-sm text-center">&copy; University of Central Florida</p>
     </div>
   </div>
 </template>

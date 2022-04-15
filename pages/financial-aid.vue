@@ -10,7 +10,7 @@ export default {
       <div class="flex flex-col space-y-8 border-b-2 border-main-gold pb-16 md:space-x-8 md:flex-row md:justify-between md:space-y-0">
         <div class="flex flex-col space-y-8">
           <div class="border-2 border-main-gold md:max-w-min md:whitespace-nowrap pb-0 px-4 pt-6">
-            <h2 class="text-main-gold text-4xl text-center">Applying for Aid?</h2>
+            <h2 class="text-main-gold text-4xl text-center font-bold tracking-wider">Applying for Aid?</h2>
           </div>
           <div class="flex flex-col items-center space-y-12 max-w-3xl md:items-start">
             <p class="text-white text-xl text-center md:text-left">
@@ -36,7 +36,7 @@ export default {
       </div>
       <div class="flex flex-col space-y-8">
         <div class="space-y-5">
-          <h2 class="text-white text-4xl tracking-wide">Types of Financial Aid</h2>
+          <h2 class="text-white text-4xl font-bold tracking-wider">Types of Financial Aid</h2>
           <div class="w-28 border-b-2 border-main-gold"></div>
         </div>
         <div class="flex flex-col space-y-5 text-center md:space-x-5 md:max-w-5xl lg:max-w-full md:space-y-0 md:text-left md:flex-row md:justify-between items-center pb-8 border-b-2 border-zinc-800">
@@ -123,7 +123,7 @@ export default {
       </div>
       <div class="flex flex-col space-y-12 md:items-start">
         <div class="flex flex-col items-center space-y-10 px-4 md:px-0 lg:items-start">
-          <div class="border-2 border-white md:max-w-min md:whitespace-nowrap px-2 pb-2 pt-8">
+          <div class="border-2 border-white md:max-w-min md:whitespace-nowrap px-2 pb-2 pt-9">
             <h1 class="text-main-gold text-4xl text-center">Receiving Financial Aid</h1>
           </div>
           <p class="text-white text-xl text-center font-light md:text-left">In order to receive financial aid, you must satisfy a <span class="text-main-gold underline">specific set of conditions</span> determined

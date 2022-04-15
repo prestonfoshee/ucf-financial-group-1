@@ -11,7 +11,7 @@ export default {
 <template>
   <div>
     <div class="flex flex-col space-y-8 mb-16">
-      <div class="flex justify-center items-center whitespace-nowrap max-w-min bg-main-gold rounded-r-lg px-5 lg:px-10 py-6">
+      <div class="flex justify-center items-center whitespace-nowrap max-w-min bg-main-gold rounded-r-lg px-5 pb-3 pt-6 lg:px-10 lg:pb-3 lg:pt-8">
         <h1 class="text-black lg:text-3xl text-center font-bold">How do I find a scholarship?</h1>
       </div>
       <div class="flex flex-col items-center lg:items-start lg:flex-row lg:justify-between lg:space-x-16 md:px-16 2xl:px-48">
@@ -38,7 +38,7 @@ export default {
         </div>
       </div>
       <div class="border-b-2 border-black pb-16 mx-16 2xl:mx-48"></div>
-      <div class="flex flex-col space-y-8 py-12 px-4 md:flex-row md:px-16 md:space-x-8 md:space-y-0 2xl:px-48 mt-16">
+      <div class="flex flex-col space-y-8 py-12 px-4 lg:flex-row md:px-16 lg:space-x-8 lg:space-y-0 2xl:px-48 mt-16">
         <text-box
         :header-text="'Florida bright futures'"
         :subtitle-text="'Learn about the state funded program and the awards based on high school academic achievement'"
@@ -56,8 +56,8 @@ export default {
         />
       </div>
 
-      <div class="flex justify-center items-center">
-        <div class="bg-main-gold text-black px-8 pb-4 pt-8 text-xl text-center max-w-min lg:whitespace-nowrap border-2 border-gray-300">List of External Scholarship Resource Links</div>
+      <div class="flex justify-center items-center px-4 md:px-0">
+        <div class="bg-main-gold text-black px-8 pb-4 pt-8 text-xl text-center md:max-w-min md:whitespace-nowrap border-2 border-gray-300">List of External Scholarship Resource Links</div>
       </div>
 
       <div class="flex flex-col space-y-16">
@@ -80,7 +80,7 @@ export default {
 
         <div class="flex flex-col space-y-12">
           <div class="text-center max-w-xs px-16 pb-3 pt-6 bg-black border-2 border-l-0 text-main-gold text-lg border-main-gold rounded-r-lg md:max-w-min md:whitespace-nowrap">Maximize Scholarship Opportunities</div>
-          <div class="px-4 md:px-48">
+          <div class="px-4 md:px-16 lg:px-48">
             <div class="flex pl-12 flex-col border-l-2 border-main-gold space-y-8">
               <p class="text-black text-xl"><span class="text-red-500 font-bold">Apply early.</span> The peak time to apply for scholarships is January through May for the upcoming school year. Remember the early bird gets the worm!</p>
               <p class="text-black text-xl"><span class="text-red-500 font-bold">Check for scholarships frequently.</span> Check your department, college, and the UCF Scholarship Listing Page for updates to scholarships.</p>
@@ -97,7 +97,7 @@ export default {
               have many applicants which may increase your chances of earning a scholarship.
             </p>
           </div>
-          <div class="px-4 md:px-48">
+          <div class="px-4 md:px-16 lg:px-48">
             <div class="flex pl-12 flex-col border-l-2 border-main-gold space-y-8">
               <p class="text-black text-xl"><span class="text-red-500 font-bold">Tailor your essay for your intended audience.</span> While writing your essay, it is important to stay focused on the topic and specifically address the essay question.</p>
               <p class="text-black text-xl"><span class="text-red-500 font-bold">Target your audience by using keywords.</span> Identify the goals of the donor as well as identifying why you should be selected for the scholarship.</p>
@@ -112,7 +112,7 @@ export default {
 
         <div class="flex flex-col space-y-12">
           <div class="text-center max-w-xs px-16 pb-3 pt-6 bg-black border-2 border-l-0 text-main-gold text-lg border-main-gold rounded-r-lg md:max-w-min md:whitespace-nowrap">Manage Your Scholarship Award</div>
-          <div class="px-4 md:px-48">
+          <div class="px-4 md:px-16 lg:px-48">
             <div class="flex pl-12 flex-col border-l-2 border-main-gold space-y-8">
               <p class="text-black text-xl">Most students entering college encounter their first real-world situations with large amounts of money. We've compiled information on budgeting your money, as well as other financial literacy tips.</p>
             </div>
@@ -125,7 +125,7 @@ export default {
             <p class="text-xl text-gray-400">**If you believe you have encountered a fraudulent scholarship, visit the Federal Trade Commission website for help.
             </p>
           </div>
-          <div class="px-4 md:px-48">
+          <div class="px-4 md:px-16 lg:px-48">
             <div class="flex pl-12 flex-col border-l-2 border-main-gold space-y-8">
               <p class="text-black text-xl"><span class="text-red-500 font-bold">Do not pay for scholarship searches.</span> You have many options for free scholarship search engines as well as campus resources.</p>
               <p class="text-black text-xl"><span class="text-red-500 font-bold">Avoid Scholarship Guarantees.</span> Be wary of scholarship organizations that guarantee you will receive a scholarship based upon a small application fee. No one can guarantee you will receive a scholarship by paying an application fee.</p>
@@ -151,7 +151,7 @@ You should let the donor(s) know something about yourself and the impact their g
             <p class="text-xl text-gray-400">***Feel free to come into the Office of Student Financial Assistance if you have trouble writing your thank you letter and a staff member will assist you. You can also visit the Writing Center for assistance.
             </p>
           </div>
-          <div class="px-4 md:px-48">
+          <div class="px-4 md:px-16 lg:px-48">
             <div class="flex pl-12 flex-col border-l-2 border-main-gold space-y-8">
               <p class="text-black text-xl"><span class="text-red-500 font-bold">Make sure your letter is legible.</span> If your handwriting is hard to read, you should type the letter instead.</p>
               <p class="text-black text-xl"><span class="text-red-500 font-bold">Be sure to address the donor of the scholarship</span> and not the scholarship committee.</p>
@@ -172,7 +172,7 @@ Avoid Giving Personal Information. Do not provide personal information such as b
 
 Money-Back Guarantee. Avoid scholarships that promise your money is guaranteed to be refunded if you do not receive a scholarship. -->
 
-    <div class="bg-main-gold flex flex-col space-y-10 py-10 px-4 lg:px-64">
+    <div class="bg-main-gold flex flex-col space-y-10 py-14 px-4 lg:px-64">
       <h1 class="text-black text-2xl text-center font-bold uppercase tracking-wide lg:text-4xl">UCF College & Departmental Scholarships</h1>
       <div class="flex flex-col items-center text-center space-y-5 text-lg md:space-y-0 md:flex-row md:justify-between md:items-start md:text-left">
         <ul class="flex flex-col text-teal-800 text-sm space-y-5 lg:text-base lg:space-y-2">

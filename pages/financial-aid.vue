@@ -108,16 +108,16 @@ export default {
         <h2 class="text-white text-4xl font-bold text-center">Learn More About How to Prepare</h2>
         <div class="flex flex-col justify-center -space-y-20 lg:flex-row lg:space-y-0 lg:space-x-48">
           <div class="flex flex-col items-center relative">
-            <img src="~/assets/img/financial-aid-person-2.jpg" alt="" class="rounded-full scale-50 lg:scale-75">
-            <a href="" class="flex justify-center items-center bg-main-gold w-64 md:py-6 lg:w-80 rounded py-4 text-black whitespace-nowrap absolute bottom-24 border-2 border-white lg:bottom-12">Applying for Financial Aid</a>
+            <img src="~/assets/img/financial-aid-person-2.jpg" alt="" class="rounded-full scale-50 xl:scale-90 2xl:scale-75">
+            <a href="" class="flex justify-center items-center bg-main-gold w-64 lg:w-48 xl:w-64 2xl:w-80 md:py-6 rounded py-4 text-black whitespace-nowrap absolute bottom-24 border-2 border-white xl:bottom-0 2xl:bottom-8">Applying for Financial Aid</a>
           </div>
           <div class="flex flex-col items-center justify-center relative">
-            <img src="~/assets/img/financial-aid-person-3.jpg" alt="" class="rounded-full scale-50 lg:scale-75">
-            <a href="" class="flex justify-center items-center bg-main-gold w-64 md:py-6 lg:w-80 rounded py-4 text-black whitespace-nowrap absolute bottom-24 border-2 border-white lg:bottom-12">Filling Out the FAFSA</a>
+            <img src="~/assets/img/financial-aid-person-3.jpg" alt="" class="rounded-full scale-50 xl:scale-90 2xl:scale-75">
+            <a href="" class="flex justify-center items-center bg-main-gold w-64 lg:w-48 xl:w-64 2xl:w-80 md:py-6 rounded py-4 text-black whitespace-nowrap absolute bottom-24 border-2 border-white xl:bottom-0 2xl:bottom-8">Filling Out the FAFSA</a>
           </div>
           <div class="flex flex-col items-center justify-center relative">
-            <img src="~/assets/img/financial-aid-person-4.jpg" alt="" class="rounded-full scale-50 lg:scale-75">
-            <a href="" class="flex justify-center items-center bg-main-gold w-64 md:py-6 lg:w-80 rounded py-4 text-black whitespace-nowrap absolute bottom-24 border-2 border-white lg:bottom-12">Financial Aid To-Do List </a>
+            <img src="~/assets/img/financial-aid-person-4.jpg" alt="" class="rounded-full scale-50 xl:scale-90 2xl:scale-75">
+            <a href="" class="flex justify-center items-center bg-main-gold w-64 lg:w-48 xl:w-64 2xl:w-80 md:py-6 rounded py-4 text-black whitespace-nowrap absolute bottom-24 border-2 border-white xl:bottom-0 2xl:bottom-8">Financial Aid To-Do List </a>
           </div>
         </div>
       </div>

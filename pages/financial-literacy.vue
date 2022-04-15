@@ -19,11 +19,11 @@ export default {
 <template>
   <div>
     <div class="flex flex-col space-y-16 w-full">
-      <div class="flex flex-col space-y-5 pb-3 px-16">
+      <div class="flex flex-col space-y-5 pb-3 px-4 lg:px-16">
         <h2 class="text-white text-4xl font-bold">A Financial Resource for Every Student</h2>
         <div class="w-40 border-b-2 border-main-gold"></div>
       </div>
-      <div class="flex justify-between px-16">
+      <div class="flex flex-col items-center px-4 space-y-6 md:space-y-0 md:items-start md:flex-row md:justify-between md:px-8 lg:px-16">
         <div class="flex flex-col space-y-4">
           <div class="max-w-3xl">
             <p class="text-white text-lg font-light">Financial Literacy means confidently understanding and
@@ -54,7 +54,7 @@ export default {
             <p class="text-xs lg:text-lg md:text-base font-light text-black text-center">(Interest rates and more)</p>
           </div>
         </div>
-        <div class="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-16">
+        <div class="flex flex-col justify-center items-center md:gap-5 md:flex-row space-y-4 md:space-y-0">
           <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
             <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
               <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Private Loans</h3>
@@ -73,7 +73,7 @@ export default {
           <CardIcon />
           <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black">Understanding Credit</h2>
         </div>
-        <div class="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
+        <div class="flex flex-wrap flex-col justify-center items-center md:gap-5 md:flex-row lg:flex-nowrap space-y-4 md:space-y-0">
           <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
             <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
               <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Credit Scores & Reports</h3>
@@ -97,7 +97,7 @@ export default {
           <BudgetingIcon />
           <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black">Budgeting</h2>
         </div>
-        <div class="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
+        <div class="flex flex-col justify-center items-center md:gap-5 md:flex-row space-y-4 md:space-y-0">
           <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
             <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
               <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Guide to Budgeting 101</h3>
@@ -116,7 +116,7 @@ export default {
           <SavingIcon />
           <h2 class="text-sm lg:text-3xl md:text-xl font-bold text-black">Saving</h2>
         </div>
-        <div class="flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
+        <div class="flex flex-col justify-center items-center md:gap-5 md:flex-row space-y-4 md:space-y-0">
           <a href="https://www.salliemae.com/student-loans/get-ready-to-borrow/" target="_blank">
             <div class="flex justify-center items-center bg-no-repeat bg-cover w-288 h-191 md:w-384 md:h-255" :style="{'background-image': `url(${require('@/assets/img/financial-literacy-link.jpg')})`}">
               <h3 class="text-3xl text-white font-bold text-center" style="text-shadow: -3px 3px 3px #000000;">Tips for Saving</h3>

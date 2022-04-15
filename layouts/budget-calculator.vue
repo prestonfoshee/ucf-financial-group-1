@@ -65,10 +65,12 @@ import UcfLogo from '../components/UcfLogo.vue'
       </div>
     </section>
 
-    <div class="flex justify-center bg-right bg-no-repeat w-full lg:bg-cover lg:h-550" :style="{'background-image': `url(${require('@/assets/img/budget-calculator-header.jpg')})`}">
-      <div class="flex flex-col space-y-24 py-10 px-16">
-        <Nav />
-        <div class="flex flex-col justify-center space-y-8">
+    <div class="flex lg:justify-center bg-right-bottom bg-no-repeat w-full lg:bg-cover lg:h-550" :style="{'background-image': `url(${require('@/assets/img/budget-calculator-header.jpg')})`}">
+      <div class="lg:static py-6 lg:flex lg:flex-col lg:space-y-24 lg:py-10 lg:px-16">
+        <div class="relative w-screen lg:w-auto">
+          <Nav class="absolute right-0 lg:static" />
+        </div>
+        <div class="flex flex-col justify-center items-center lg:items-start space-y-8 mt-16 lg:mt-0">
           <div class="flex justify-center items-center bg-main-gold/50 max-w-sm p-4">
             <h1 v-if="$route.name === 'budget-calculator'" class="text-white text-5xl  font-bold uppercase">{{ budget.headerText }}</h1>
             <h1 v-else-if="$route.name === 'calendar'" class="text-white text-5xl  font-bold uppercase">{{ calendar.headerText }}</h1>
@@ -92,7 +94,7 @@ import UcfLogo from '../components/UcfLogo.vue'
     </div>
 
     <section class="pt-12">
-      <div class="max-w-screen-3xl mx-auto space-y-32">
+      <div class="mx-auto space-y-32">
         <Nuxt />
         <Footer />
       </div>

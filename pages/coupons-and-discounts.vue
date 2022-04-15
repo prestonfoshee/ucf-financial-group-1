@@ -11,12 +11,12 @@ export default {
 <template>
   <div>
     <div class="flex flex-col space-y-12">
-      <div class="flex justify-between space-y-6 px-16 py-8 bg-main-gold">
+      <div class="flex flex-col items-center space-y-6 px-4 py-8 md:items-start md:flex-row md:justify-between md:px-16 bg-main-gold">
         <div class="flex flex-col space-y-5 pb-3">
             <h2 class="text-black text-4xl font-bold">Find Student Discounts & Offers</h2>
             <div class="w-40 border-b-2 border-white"></div>
-          <div class="max-w-3xl">
-            <p class="text-black text-lg font-base">As a part of UCF's community, you have access to a multitude of discounts and savings. In addition to online
+          <div class="lg:max-w-3xl">
+            <p class="text-black text-sm md:text-lg font-base">As a part of UCF's community, you have access to a multitude of discounts and savings. In addition to online
               retailers, there are multiple businesses in and around UCF that will offer discounts to UCF students so long
               as you have a valid UCF ID, don't forget to ask if there is a promotion available and show your ID. Below is
               information for some popular student discounts.
@@ -25,7 +25,7 @@ export default {
         </div>
           <img src="~/assets/img/coupons-circular-header.jpg" alt="" class="rounded-full w-52 h-52 border-2 border-white">
       </div>
-      <div class="px-16 space-y-12">
+      <div class="px-16 space-y-12 text-center md:text-left">
         <div class="flex flex-col space-y-8">
           <div class="pb-3 border-b border-main-gold">
             <h2 class="text-black text-2xl font-bold">Technology & Media</h2>

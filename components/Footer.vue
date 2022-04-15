@@ -21,10 +21,10 @@ export default {
       </div>
       <div class="flex space-x-4 w-64">
         <facebook-icon />
-        <!-- <twitter-icon />
+        <twitter-icon />
         <ucf-social />
         <youtube-icon />
-        <instagram-icon /> -->
+        <instagram-icon />
       </div>
     </div>
       <ul class="flex flex-wrap px-4 text-xs gap-3 justify-center text-white font-light md:flex-nowrap md:text-sm md:px-0">

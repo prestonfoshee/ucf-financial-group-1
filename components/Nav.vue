@@ -75,7 +75,7 @@ export default {
 
     <nav class="block lg:hidden">
       <hamburger-icon @clicked="toggle" class="absolute right-0" />
-      <ul v-show="toggled" class="flex flex-col items-center space-y-6 text-white bg-zinc-700/90 w-screen py-4">
+      <ul v-show="toggled" class="flex flex-col items-center space-y-6 md:space-y-10 text-white bg-zinc-700/90 w-screen py-4">
         <li>
           <NuxtLink to="/"
           class="font-medium p-4 transition duration-300">

@@ -5,7 +5,7 @@
 <template>
   <div>
     <a href="https://twitter.com/UCF" target="_blank">
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.6 25.6" preserveAspectRatio="xMinYMin meet" style="enable-background:new 0 0 25.6 25.6;" xml:space="preserve">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.6 25.6" preserveAspectRatio="xMinYMin meet" style="enable-background:new 0 0 25.6 25.6;" xml:space="preserve" width="100%" height="100%">
         <path id="Shape-8" class="st0" d="M12.8,0C5.73,0,0,5.73,0,12.8s5.73,12.8,12.8,12.8s12.8-5.73,12.8-12.8
           C25.59,5.73,19.86,0.01,12.8,0z M20.34,8.93c-0.29,0.29-0.58,0.58-0.87,0.9c-0.19,0.23-0.3,0.51-0.32,0.81
           c-0.23,4.32-3.19,8.25-7.54,8.93c-2.11,0.36-4.28,0-6.16-1.03c-0.06-0.03-0.13-0.1-0.19-0.13v-0.1c1.58,0,3.09-0.26,4.42-1.26

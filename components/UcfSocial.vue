@@ -5,7 +5,7 @@
 <template>
   <div>
     <a href="https://www.ucf.edu/social/" target="_blank">
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.6 25.6" preserveAspectRatio="xMinYMin meet" style="enable-background:new 0 0 25.6 25.6;" xml:space="preserve">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.6 25.6" preserveAspectRatio="xMinYMin meet" style="enable-background:new 0 0 25.6 25.6;" xml:space="preserve" width="100%" height="100%">
         <path id="Shape-9" class="st0" d="M12.8,0C5.73,0,0,5.73,0,12.8s5.73,12.8,12.8,12.8s12.8-5.73,12.8-12.8c0,0,0,0,0,0l0,0
         C25.61,5.75,19.91,0.02,12.86,0C12.84,0,12.82,0,12.8,0z M11.15,13.06c0,0.12-0.01,0.24-0.03,0.35l3.68,1.84
         c1.32-1.23,3.38-1.16,4.61,0.16c1.23,1.32,1.16,3.38-0.16,4.61c-1.32,1.23-3.38,1.16-4.61-0.16c0,0,0,0,0,0

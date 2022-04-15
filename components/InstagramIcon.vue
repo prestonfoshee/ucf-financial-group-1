@@ -5,7 +5,7 @@
 <template>
   <div>
     <a href="https://www.instagram.com/ucf.edu/" target="_blank">
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.6 25.6" preserveAspectRatio="xMinYMin meet" style="enable-background:new 0 0 25.6 25.6;" xml:space="preserve">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25.6 25.6" preserveAspectRatio="xMinYMin meet" style="enable-background:new 0 0 25.6 25.6;" xml:space="preserve" width="100%" height="100%">
         <g>
           <path class="st0" d="M19.89,7.61c-0.15-0.38-0.38-0.72-0.67-1.01c-0.28-0.3-0.62-0.53-1.01-0.67c-0.53-0.18-1.09-0.28-1.66-0.3
             c-0.95-0.04-1.23-0.04-3.59-0.04s-2.65,0-3.59,0.04c-0.57,0-1.13,0.1-1.66,0.3C7.33,6.08,6.98,6.31,6.7,6.6

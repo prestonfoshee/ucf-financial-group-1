@@ -6,7 +6,7 @@
   <div>
     <a href="https://www.youtube.com/user/UCF" target="_blank">
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-      viewBox="0 0 25.6 25.6" preserveAspectRatio="xMinYMin meet" style="enable-background:new 0 0 25.6 25.6;" xml:space="preserve">
+      viewBox="0 0 25.6 25.6" preserveAspectRatio="xMinYMin meet" style="enable-background:new 0 0 25.6 25.6;" xml:space="preserve" width="100%" height="100%">
         <g>
           <path id="Shape-2" class="st0" d="M11.77,15.89v2.71c0.03,0.17-0.03,0.34-0.16,0.45c-0.12,0.13-0.31,0.19-0.48,0.16
             c-0.19-0.06-0.16-0.26-0.16-0.42v-3.26h-0.81c0,0.03-0.03,0.06-0.03,0.1v3.68c-0.01,0.08,0.01,0.15,0.03,0.23

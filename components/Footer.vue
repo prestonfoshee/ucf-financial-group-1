@@ -21,23 +21,23 @@ export default {
       </div>
       <div class="flex space-x-4 w-64">
         <facebook-icon />
-        <twitter-icon />
+        <!-- <twitter-icon />
         <ucf-social />
         <youtube-icon />
-        <instagram-icon />
+        <instagram-icon /> -->
       </div>
     </div>
-      <ul class="flex flex-wrap text-xs md:flex-nowrap justify-center space-x-3 md:text-sm text-white font-light">
-        <li class="border-r border-white pr-3 m-1"><a href="" target="_blank">About UCF</a></li>
-        <li class="border-r border-white pr-3 m-1"><a href="" target="_blank">Contact US</a></li>
-        <li class="border-r border-white pr-3 m-1"><a href="" target="_blank">Faculty</a></li>
-        <li class="border-r border-white pr-3 m-1"><a href="" target="_blank">Online Degrees</a></li>
-        <li class="border-r border-white pr-3 m-1"><a href="" target="_blank">Policies</a></li>
-        <li class="border-r border-white pr-3 m-1"><a href="" target="_blank">Privacy Notice</a></li>
-        <li class="border-r border-white pr-3 m-1"><a href="" target="_blank">Public Records</a></li>
-        <li class="border-r border-white pr-3 m-1"><a href="" target="_blank">Regulations</a></li>
-        <li class="border-r border-white pr-3"><a href="" target="_blank">Report a Concern</a></li>
-        <li class=""><a href="" target="_blank">UCF News</a></li>
+      <ul class="flex flex-wrap px-4 text-xs gap-3 justify-center text-white font-light md:flex-nowrap md:text-sm md:px-0">
+        <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/about-ucf/" target="_blank">About UCF</a></li>
+        <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/contact-ucf/" target="_blank">Contact US</a></li>
+        <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/faculty/" target="_blank">Faculty</a></li>
+        <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/online/" target="_blank">Online Degrees</a></li>
+        <li class="border-r border-white pr-4"><a href="https://policies.ucf.edu/" target="_blank">Policies</a></li>
+        <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/internet-privacy-policy/" target="_blank">Privacy Notice</a></li>
+        <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/public-records-requests/" target="_blank">Public Records</a></li>
+        <li class="border-r border-white pr-4"><a href="https://regulations.ucf.edu/" target="_blank">Regulations</a></li>
+        <li class="border-r border-white pr-4"><a href="https://www.ucf.edu/contact-ucf/reporting/" target="_blank">Report a Concern</a></li>
+        <li class=""><a href="https://www.ucf.edu/news/" target="_blank">UCF News</a></li>
       </ul>
     <div class=" space-y-2">
       <p class="text-white text-sm text-center font-light">4000 Central Florida Blvd. Orlando, Florida, 32816</p>

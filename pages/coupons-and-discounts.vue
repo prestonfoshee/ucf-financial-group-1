@@ -11,7 +11,7 @@ export default {
 <template>
   <div>
     <div class="flex flex-col space-y-12">
-      <div class="flex flex-col items-center space-y-6 px-4 py-8 md:flex-row md:justify-between md:px-8 lg:px-32 2xl:px-64 bg-main-gold">
+      <div class="flex flex-col items-center space-y-6 px-4 py-14 md:flex-row md:justify-between md:px-8 lg:px-32 2xl:px-64 bg-main-gold">
         <div class="flex flex-col space-y-14 pb-3">
             <div>
               <h2 class="text-black text-4xl font-bold">Find Student Discounts & Offers</h2>
@@ -27,7 +27,7 @@ export default {
         </div>
           <img src="~assets/img/coupons-circular.jpg" alt="" class="rounded-full w-60 h-60 border-2 border-white">
       </div>
-      <div class="px-16 space-y-12 text-center md:text-left">
+      <div class="px-4 md:px-16 space-y-12 text-center md:text-left">
         <div class="flex flex-col space-y-8">
           <div class="pb-3 pt-6 border-b border-main-gold">
             <h2 class="text-black text-2xl font-bold">Technology & Media</h2>
@@ -98,8 +98,8 @@ export default {
                 <a href="" class="flex items-center justify-center max-w-min px-3 pt-5 pb-2 text-black text-md whitespace-nowrap bg-main-gold rounded">Sheer student deals</a>
               </div>
           </div>
-          <div class="flex justify-between items-center pb-6">
-            <div class="flex flex-col space-y-2">
+          <div class="flex justify-between items-center pb-6 pt-2">
+            <div class="flex flex-col space-y-2 pt-1">
               <p class="text-black text-xl font-semibold">UCF Gear</p>
               <div class="max-w-5xl">
                 <p class="text-black text-lg font-light">Sign up at shops.ucfknights.com to receive 10% off your purchase. There you can find all
@@ -138,7 +138,7 @@ export default {
               <p class="text-black text-lg font-light">An arthouse cinema that offers student discounted tickets for $9. Enzian.org</p>
             </div>
             <div class="flex justify-center">
-              <a href="https://www.burgerfi.com/" class="flex items-center justify-center max-w-min px-3 pt-5 pb-2 text-black text-md whitespace-nowrap bg-main-gold rounded">Enzian FAQ</a>
+              <a href="https://www.burgerfi.com/" class="flex items-center justify-center max-w-min px-3 pt-6 pb-2 text-black text-md whitespace-nowrap bg-main-gold rounded">Enzian FAQ</a>
             </div>
           </div>
           <div class="flex justify-between items-center border-b border-gray-300 pb-6">
@@ -151,17 +151,77 @@ export default {
             </div>
           </div>
         </div>
-        <div class="flex flex-col space-y-4">
+        <div class="flex flex-col space-y-12 pb-12">
           <div class="pb-3 border-b border-main-gold">
             <h2 class="text-black text-2xl font-bold">UCF On-Campus Aid</h2>
           </div>
-          <div class="flex flex-wrap justify-center items-center w-3/4 mx-auto">
-            <text-box :text="'Knights Pantry'" />
-            <text-box :text="'Dining Services'" />
-            <text-box :text="'Lynx/Bus Info'" />
-            <text-box :text="'Sunrail Info'" />
-            <text-box :text="'CoachUSA'" />
+
+          <div class="flex justify-center">
+            <div class="flex flex-wrap justify-center gap-24 max-w-6xl">
+
+              <div class="flex flex-col items-center space-y-5 max-w-xl">
+                <div class="border-2 border-main-gold p-12 rounded-full">
+                  <img src="~/assets/img/drumstick.jpg" alt="Knights Pantry Icon" class="w-44 h-44">
+                </div>
+                <div class="bg-main-gold px-6 pb-3 pt-6 text-center rounded-md">Knights Pantry</div>
+                <div class="max-w-xs">
+                  <p class="text-black text-center">The Knights Helping Knights Pantry is committed to serving UCF students by providing basic needs including food, clothing,
+                    and personal hygiene items to foster continued academic success and increase retention for students in need.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-center space-y-5 max-w-xl">
+                <div class="border-2 border-main-gold p-14 rounded-full">
+                  <img src="~/assets/img/ramen.jpg" alt="Dining Services Icon" class="w-40 h-40">
+                </div>
+                <div class="bg-main-gold px-6 pb-3 pt-6 text-center rounded-md">Dining Services</div>
+                <div class="max-w-xs">
+                  <p class="text-black text-center">Our meal plans are convenient, flexible and loaded with options. Members gain access to dining locations
+                    all across campus with a range of menus and offerings.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-center space-y-5 max-w-xl">
+                <div class="border-2 border-main-gold p-12 rounded-full">
+                  <img src="~/assets/img/bus.jpg" alt="Bus Icon" class="w-44 h-44">
+                </div>
+                <div class="bg-main-gold px-6 pb-3 pt-6 text-center rounded-md">Knights Pantry</div>
+                <div class="max-w-xs">
+                  <p class="text-black text-center">The Knights Helping Knights Pantry is committed to serving UCF students by providing basic needs including food, clothing,
+                    and personal hygiene items to foster continued academic success and increase retention for students in need.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-center space-y-5 max-w-xl">
+                <div class="border-2 border-main-gold p-12 rounded-full">
+                  <img src="~/assets/img/train.jpg" alt="Sunrail Icon" class="w-44 h-44">
+                </div>
+                <div class="bg-main-gold px-6 pb-3 pt-6 text-center rounded-md">Knights Pantry</div>
+                <div class="max-w-xs">
+                  <p class="text-black text-center">The Knights Helping Knights Pantry is committed to serving UCF students by providing basic needs including food, clothing,
+                    and personal hygiene items to foster continued academic success and increase retention for students in need.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-center space-y-5 max-w-xl">
+                <div class="border-2 border-main-gold p-12 rounded-full">
+                  <img src="~/assets/img/sedan.jpg" alt="Lyft Icon" class="w-44 h-44">
+                </div>
+                <div class="bg-main-gold px-6 pb-3 pt-6 text-center rounded-md">Knights Pantry</div>
+                <div class="max-w-xs">
+                  <p class="text-black text-center">The Knights Helping Knights Pantry is committed to serving UCF students by providing basic needs including food, clothing,
+                    and personal hygiene items to foster continued academic success and increase retention for students in need.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+
+
         </div>
       </div>
 

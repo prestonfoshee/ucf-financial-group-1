@@ -59,6 +59,100 @@ export default {
 
       <div class="flex flex-col space-y-16 px-4 md:px-8 lg:px-32 2xl:px-64">
         <h2 class="text-zinc-400 font-bold tracking-wide text-4xl">Financial Assistance</h2>
+        <div class="flex flex-col space-y-8 bg-zinc-400 p-12">
+        <div class="flex justify-between">
+
+          <div class="">
+            <p class="text-black text-xl"><span class="font-bold">Email:</span> finaid@ucf.edu</p>
+            <p class="text-black text-xl"><span class="font-bold">Phone:</span> (844) 376-9160</p>
+            <p class="text-black text-xl"><span class="font-bold">Fax:</span> (407) 823-5241</p>
+          </div>
+          <div>
+            <h4 class="text-black font-bold uppercase text-2xl">Office Hours</h4>
+            <p class="text-black text-xl">Monday to Friday</p>
+            <p class="text-black text-xl">9 a.m. - 5p.m.</p>
+          </div>
+        </div>
+
+          <div class="flex justify-between">
+            <div>
+              <h4 class="text-black font-bold uppercase text-2xl">Office Address</h4>
+              <p class="text-black text-xl">Office of Student Financial Assistance</p>
+              <p class="text-black text-xl">4000 Central Florida Blvd.</p>
+              <p class="text-black text-xl">Millican Hall, Room 107</p>
+              <p class="text-black text-xl">Orlando, FL 32816-0113</p>
+            </div>
+            <div class="text-right">
+              <h4 class="text-black font-bold uppercase text-2xl">Mailing Address</h4>
+              <p class="text-black text-xl">Office of Student Financial Assistance</p>
+              <p class="text-black text-xl">P.O. Box 160113</p>
+              <p class="text-black text-xl">Orlando, FL 32816-0113</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="text-zinc-400 font-bold tracking-wide text-4xl ml-auto text-right">Student Success and Advising</h2>
+        <div class="flex flex-col space-y-8 bg-zinc-400 p-12">
+        <div class="flex justify-between">
+            <div>
+              <h4 class="text-black font-bold uppercase text-2xl">Contact Us</h4>
+              <p class="text-black text-xl">407-823-6250</p>
+              <p class="text-black text-xl">ssa@ucf.edu</p>
+            </div>
+            <div class="text-right">
+              <h4 class="text-black font-bold uppercase text-2xl">Hours of Operation</h4>
+              <p class="text-black text-xl">Monday to Friday:</p>
+              <p class="text-black text-xl">8 a.m. - 4 p.m.</p>
+            </div>
+          </div>
+
+          <div class="flex justify-between">
+          <div class="">
+            <h4 class="text-black font-bold uppercase text-2xl">Office Hours</h4>
+            <p class="text-black text-xl">Trevor Colbourn Hall, Suite 215</p>
+            <p class="text-black text-xl">12796 Aquarius Agora Dr.</p>
+            <p class="text-black text-xl">Orlando, FL 32816-0160</p>
+          </div>
+          <div class="text-right">
+            <h4 class="text-black font-bold uppercase text-2xl">Online Advising</h4>
+            <p class="text-black text-xl">
+              https://academicsuccess.ucf.edu/ssa/remote-advising/
+            </p>
+          </div>
+        </div>
+
+        </div>
+
+        <h2 class="text-zinc-400 font-bold tracking-wide text-4xl">Collections</h2>
+        <div class="flex flex-col space-y-8 bg-zinc-400 p-12">
+        <div class="flex justify-between">
+
+          <div class="">
+            <p class="text-black text-xl"><span class="font-bold">Email:</span> finaid@ucf.edu</p>
+            <p class="text-black text-xl"><span class="font-bold">Phone:</span> (844) 376-9160</p>
+            <p class="text-black text-xl"><span class="font-bold">Fax:</span> (407) 823-5241</p>
+          </div>
+          <div>
+            <h4 class="text-black font-bold uppercase text-2xl">Office Hours</h4>
+            <p class="text-black text-xl">Monday to Friday</p>
+            <p class="text-black text-xl">9 a.m. - 5p.m.</p>
+          </div>
+        </div>
+
+          <div class="flex justify-between">
+            <div>
+              <h4 class="text-black font-bold uppercase text-2xl">Office Address</h4>
+              <p class="text-black text-xl">Research Pavilion</p>
+            </div>
+            <div class="text-right">
+              <h4 class="text-black font-bold uppercase text-2xl">Mailing Address</h4>
+              <p class="text-black text-xl">Office of Student Financial Assistance</p>
+              <p class="text-black text-xl">P.O. Box 160115</p>
+              <p class="text-black text-xl">Orlando, FL 32816-0115</p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>

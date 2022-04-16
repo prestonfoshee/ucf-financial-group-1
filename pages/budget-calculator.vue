@@ -130,8 +130,69 @@ export default {
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
-    <div class="flex flex-col items-center space-y-6 px-16 py-4 max-w-5xl">
+  <div>
+    <div class="flex flex-col items-center space-y-6 px-4 py-14 md:flex-row md:justify-between md:px-8 lg:px-32 2xl:px-64 bg-main-gold w-full">
+      <div class="flex flex-col space-y-16 pb-3">
+        <div>
+          <h2 class="text-black text-4xl font-bold">Before You Budget —</h2>
+          <h2 class="text-black text-4xl font-bold">Understand What You Pay For Your <span class="text-red-500">Tuition.</span></h2>
+        </div>
+        <div class="max-w-3xl">
+          <p class="text-xl text-black">Many students pay their dues yet don't know how much of their dollars are put towards creating a better community, campus, and university.
+            Let us help clarify a few things.</p>
+        </div>
+      </div>
+      <img src="~/assets/img/budget-header-square.jpg" alt="" class="w-80 rounded-xl">
+    </div>
+
+    <div class="flex flex-col space-y-3 md:px-8 2xl:px-64 pt-12">
+      <h4 class="text-black text-2xl font-bold uppercase">Tuition & Fees</h4>
+      <p class="text-gray-400 text-xl">These fees are assessed per credit hour based on the level of the course:</p>
+      <h4 class="text-black text-2xl font-bold uppercase">Definition</h4>
+      <div class="flex flex-col space-y-12 pb-6">
+        <div class="px-4 md:px-16 lg:px-48">
+          <div class="flex pl-12 flex-col border-l-2 border-main-gold space-y-8">
+            <p class="text-black text-xl"><span class="text-red-500 font-bold">Apply early.</span> The peak time to apply for scholarships is January through May for the upcoming school year. Remember the early bird gets the worm!</p>
+            <p class="text-black text-xl"><span class="text-red-500 font-bold">Check for scholarships frequently.</span> Check your department, college, and the UCF Scholarship Listing Page for updates to scholarships.</p>
+            <p class="text-black text-xl"><span class="text-red-500 font-bold">Get Involved.</span> While some scholarships do not require involvement, it does help showcase who you are as a person. Also, being involved helps identify your involvement within your community i.e. campus, local, church, sports.</p>
+            <p class="text-black text-xl"><span class="text-red-500 font-bold">Complete Your FAFSA.</span> Some scholarships do not require the FAFSA, however, it is recommended for consideration of scholarships that require completing the FAFSA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col space-y-3 md:px-8 2xl:px-64 pb-12">
+      <p class="text-gray-400 text-xl">The following fees are assessed on a basis other than credit hours:</p>
+      <div class="flex flex-col space-y-12">
+        <div class="px-4 md:px-16 lg:px-48">
+          <div class="flex pl-12 flex-col border-l-2 border-main-gold space-y-8">
+            <p class="text-black text-xl"><span class="text-red-500 font-bold">Apply early.</span> The peak time to apply for scholarships is January through May for the upcoming school year. Remember the early bird gets the worm!</p>
+            <p class="text-black text-xl"><span class="text-red-500 font-bold">Check for scholarships frequently.</span> Check your department, college, and the UCF Scholarship Listing Page for updates to scholarships.</p>
+            <p class="text-black text-xl"><span class="text-red-500 font-bold">Get Involved.</span> While some scholarships do not require involvement, it does help showcase who you are as a person. Also, being involved helps identify your involvement within your community i.e. campus, local, church, sports.</p>
+            <p class="text-black text-xl"><span class="text-red-500 font-bold">Complete Your FAFSA.</span> Some scholarships do not require the FAFSA, however, it is recommended for consideration of scholarships that require completing the FAFSA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col space-y-10 md:px-8 2xl:px-64">
+      <div>
+        <h3 class="text-black text-3xl font-bold">These links will help you get a clear idea about what to expect for the rest of your academic jounery
+          here at UCF.</h3>
+      </div>
+      <div class="flex flex-col flex-wrap items-center justify-center max-w-full gap-4 text-center font-bold md:flex-row md:items-start">
+        <a href="" class="flex items-center justify-center w-1/5 h-24 border-2 border-black pb-6 pt-10 px-10">Tuition Rates (by program)</a>
+        <a href="" class="flex items-center justify-center w-1/5 h-24 border-2 border-black pb-6 pt-10 px-10">Net Price Calculator</a>
+        <a href="" class="flex items-center justify-center w-1/5 h-24 border-2 border-black pb-6 pt-10 px-10">Forms</a>
+        <a href="" class="flex items-center justify-center w-1/5 h-24 border-2 border-black pb-6 pt-10 px-10">FAQs</a>
+        <a href="" class="flex items-center justify-center w-1/5 h-24 border-2 border-black pb-6 pt-10 px-10">Excess Credit Hours</a>
+        <a href="" class="flex items-center justify-center w-1/5 h-24 border-2 border-black pb-6 pt-10 px-10">Historical Rates</a>
+        <a href="" class="flex items-center justify-center w-1/5 h-24 border-2 border-black pb-6 pt-10 px-10">Parent Info</a>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center bg-main-gold w-full pb-12">
+      <div class="flex flex-col items-center space-y-6 px-16 py-16 max-w-5xl">
       <div class="max-w-lg">
         <h1 class="text-3xl text-black text-center font-bold">Follow the 50/30/20 rule when it comes to your budget needs</h1>
       </div>
@@ -299,6 +360,11 @@ export default {
             </div>
           </div>
         </div>
+    </div>
+
+
+
+
   </div>
 </template>
 

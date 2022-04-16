@@ -40,7 +40,7 @@ import UcfLogo from '../components/UcfLogo.vue'
 </script>
 
 <template>
-  <main class="min-h-screen bg-main-gold">
+  <main class="min-h-screen">
     <section class="flex justify-between items-center px-16 py-3 bg-black">
       <div class="flex items-center">
           <ucf-logo />
@@ -93,8 +93,8 @@ import UcfLogo from '../components/UcfLogo.vue'
       </div>
     </div>
 
-    <section class="pt-12">
-      <div class="mx-auto space-y-32">
+    <section>
+      <div class="mx-auto">
         <Nuxt />
         <Footer />
       </div>

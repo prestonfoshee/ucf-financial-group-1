@@ -54,14 +54,6 @@ import UcfLogo from '../components/UcfLogo.vue'
         <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="30" cy="30" r="30" fill="#C4C4C4"/>
         </svg>
-        <!-- <div class="flex justify-between relative">
-          <input type="text" class="px-4 py-2 rounded-md text-black text-sm">
-          <button type="submit" class="absolute right-0 w-1/6 h-full bg-main-gold rounded-md">
-            <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="20px" height="20px" class="absolute right-2 bottom-2">
-             <path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"/>
-            </svg>
-          </button>
-        </div> -->
       </div>
     </section>
 

@@ -138,12 +138,12 @@ export default {
               <p class="text-black text-lg font-light">An arthouse cinema that offers student discounted tickets for $9. Enzian.org</p>
             </div>
             <div class="flex justify-center">
-              <a href="https://www.burgerfi.com/" class="flex items-center justify-center max-w-min px-3 pt-6 pb-2 text-black text-md whitespace-nowrap bg-main-gold rounded">Enzian FAQ</a>
+              <a href="https://enzian.org/faq/" class="flex items-center justify-center max-w-min px-3 pt-6 pb-2 text-black text-md whitespace-nowrap bg-main-gold rounded">Enzian FAQ</a>
             </div>
           </div>
           <div class="flex justify-between items-center border-b border-gray-300 pb-6">
             <div class="flex flex-col space-y-2">
-              <p class="text-black text-xl font-semibold">BuegerFi</p>
+              <p class="text-black text-xl font-semibold">BurgerFi</p>
               <p class="text-black text-lg font-light">Discounted burgers and shakes for students who bring their ID's.</p>
             </div>
             <div class="flex justify-center">

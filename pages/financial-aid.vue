@@ -48,7 +48,7 @@ export default {
           </div>
           <div class="flex flex-col items-center space-y-3">
             <p class="text-white text-lg font-thin whitespace-nowrap">Learn more about:</p>
-            <a href="" class=" bg-main-gold max-w-min rounded pb-2 pt-5 px-3 text-black whitespace-nowrap border-2 borderwhite">Scholarships</a>
+            <a href="https://www.ucf.edu/financial-aid/types/scholarships/" target="_blank" class=" bg-main-gold max-w-min rounded pb-2 pt-5 px-3 text-black whitespace-nowrap border-2 borderwhite">Scholarships</a>
           </div>
         </div>
         <div class="flex flex-col space-y-5 text-center md:space-x-5 md:max-w-5xl lg:max-w-full md:space-y-0 md:text-left md:flex-row md:justify-between items-center pb-8 border-b-2 border-zinc-800">
@@ -60,7 +60,7 @@ export default {
           </div>
           <div class="flex flex-col items-center space-y-3">
             <p class="text-white text-lg font-thin whitespace-nowrap">Learn more about:</p>
-            <a href="" class=" bg-main-gold max-w-min rounded px-6 pb-2 pt-5 text-black whitespace-nowrap border-2 borderwhite">Grants</a>
+            <a href="https://www.ucf.edu/financial-aid/types/grants/" class=" bg-main-gold max-w-min rounded px-6 pb-2 pt-5 text-black whitespace-nowrap border-2 borderwhite">Grants</a>
           </div>
         </div>
         <div class="flex flex-col space-y-5 text-center md:space-x-5 md:max-w-5xl lg:max-w-full md:space-y-0 md:text-left md:flex-row md:justify-between items-center pb-8 border-b-2 border-zinc-800">
@@ -73,7 +73,7 @@ export default {
           </div>
           <div class="flex flex-col items-center space-y-3">
             <p class="text-white text-lg font-thin whitespace-nowrap">Learn more about:</p>
-            <a href="" class=" bg-main-gold max-w-min rounded px-6 pb-2 pt-5 text-black whitespace-nowrap border-2 borderwhite">Loans</a>
+            <a href="https://www.ucf.edu/financial-aid/types/loans/" class=" bg-main-gold max-w-min rounded px-6 pb-2 pt-5 text-black whitespace-nowrap border-2 borderwhite">Loans</a>
           </div>
         </div>
         <div class="flex flex-col space-y-5 text-center md:space-x-5 md:max-w-5xl lg:max-w-full md:space-y-0 md:text-left md:flex-row md:justify-between items-center pb-8 border-b-2 border-zinc-800">
@@ -87,7 +87,7 @@ export default {
           </div>
           <div class="flex flex-col items-center space-y-3">
             <p class="text-white text-lg font-thin whitespace-nowrap">Learn more about:</p>
-            <a href="" class=" bg-main-gold max-w-min rounded px-6 pb-2 pt-5 text-black whitespace-nowrap border-2 borderwhite">Waivers</a>
+            <a href="https://www.ucf.edu/financial-aid/types/waivers/" class=" bg-main-gold max-w-min rounded px-6 pb-2 pt-5 text-black whitespace-nowrap border-2 borderwhite">Waivers</a>
           </div>
         </div>
         <div class="flex flex-col space-y-5 text-center md:space-x-5 md:max-w-5xl lg:max-w-full md:space-y-0 md:text-left md:flex-row md:justify-between items-center">
@@ -100,7 +100,7 @@ export default {
           </div>
           <div class="flex flex-col items-center space-y-3">
             <p class="text-white text-lg font-thin whitespace-nowrap">Learn more about:</p>
-            <a href="" class="w-32 bg-main-gold rounded px-2 pb-2 pt-5 text-black text-center border-2 borderwhite">Federal Work Study (FWS)</a>
+            <a href="https://www.ucf.edu/financial-aid/types/federal-work-study/" class="w-32 bg-main-gold rounded px-2 pb-2 pt-5 text-black text-center border-2 borderwhite">Federal Work Study (FWS)</a>
           </div>
         </div>
       </div>
@@ -109,15 +109,15 @@ export default {
         <div class="flex flex-col justify-center -space-y-20 lg:flex-row lg:space-y-0 lg:space-x-48">
           <div class="flex flex-col items-center relative">
             <img src="~/assets/img/financial-aid-person-2.jpg" alt="" class="rounded-full scale-50 xl:scale-90 2xl:scale-75">
-            <a href="" class="flex justify-center items-center bg-main-gold w-64 lg:w-48 xl:w-64 2xl:w-80 rounded pt-6 pb-3 text-black whitespace-nowrap absolute bottom-24 border-2 border-white xl:bottom-0 2xl:bottom-8">Applying for Financial Aid</a>
+            <a href="https://studentaid.gov/h/apply-for-aid/fafsa" target="_blank" class="flex justify-center items-center bg-main-gold w-64 lg:w-48 xl:w-64 2xl:w-80 rounded pt-6 pb-3 text-black whitespace-nowrap absolute bottom-24 border-2 border-white xl:bottom-0 2xl:bottom-8">Applying for Financial Aid</a>
           </div>
           <div class="flex flex-col items-center justify-center relative">
             <img src="~/assets/img/financial-aid-person-3.jpg" alt="" class="rounded-full scale-50 xl:scale-90 2xl:scale-75">
-            <a href="" class="flex justify-center items-center bg-main-gold w-64 lg:w-48 xl:w-64 2xl:w-80 rounded pt-6 pb-3 text-black whitespace-nowrap absolute bottom-24 border-2 border-white xl:bottom-0 2xl:bottom-8">Filling Out the FAFSA</a>
+            <a href="https://www.ucf.edu/financial-aid/apply/fafsa/" target="_blank" class="flex justify-center items-center bg-main-gold w-64 lg:w-48 xl:w-64 2xl:w-80 rounded pt-6 pb-3 text-black whitespace-nowrap absolute bottom-24 border-2 border-white xl:bottom-0 2xl:bottom-8">Filling Out the FAFSA</a>
           </div>
           <div class="flex flex-col items-center justify-center relative">
             <img src="~/assets/img/financial-aid-person-4.jpg" alt="" class="rounded-full scale-50 xl:scale-90 2xl:scale-75">
-            <a href="" class="flex justify-center items-center bg-main-gold w-64 lg:w-48 xl:w-64 2xl:w-80 rounded pt-6 pb-3 text-black whitespace-nowrap absolute bottom-24 border-2 border-white xl:bottom-0 2xl:bottom-8">Financial Aid To-Do List </a>
+            <a href="https://www.ucf.edu/financial-aid/resources/understanding-to-do-list/" target="_blank" class="flex justify-center items-center bg-main-gold w-64 lg:w-48 xl:w-64 2xl:w-80 rounded pt-6 pb-3 text-black whitespace-nowrap absolute bottom-24 border-2 border-white xl:bottom-0 2xl:bottom-8">Financial Aid To-Do List </a>
           </div>
         </div>
       </div>

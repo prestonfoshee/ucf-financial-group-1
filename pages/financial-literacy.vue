@@ -68,7 +68,7 @@ export default {
           <div class="flex flex-col items-center space-y-5 md:items-start">
             <p class="text-white text-lg text-center md:text-left">Private loans are made by private organizations such banks, credit unions, and state-based or state-affiliated organizations, and have terms
               and conditions that are set by the lender. Private student loans are generally more expensive than federal student loans.</p>
-              <a href="" class="bg-main-gold text-center pb-2 pt-5 px-4 max-w-xs md:max-w-min md:whitespace-nowrap rounded">Learn more about private loans</a>
+              <a href="https://studentaid.gov/understand-aid/types/loans" class="bg-main-gold text-center pb-2 pt-5 px-4 max-w-xs md:max-w-min md:whitespace-nowrap rounded">Learn more about private loans</a>
           </div>
         </div>
         <div class="flex flex-col justify-between items-center px-4 md:px-8 lg:px-32 2xl:px-64 md:gap-5 md:flex-row space-y-4 md:space-y-0 md:space-x-10">
@@ -81,7 +81,7 @@ export default {
             <p class="text-main-gold text-lg text-center md:text-left">The Free Application for Federal Student Aid, or FAFSA, is the form that the federal government,
               states, colleges and other organizations use to award financial aid. Submitting it is your key to accessing grants, scholarships, work-study programs and federal student loans.
             </p>
-              <a href="" class="bg-main-gold text-center pb-2 pt-5 px-4 max-w-xs md:max-w-min md:whitespace-nowrap rounded">Learn more FAFSA</a>
+              <a href="https://studentaid.gov/understand-aid/types/loans" class="bg-main-gold text-center pb-2 pt-5 px-4 max-w-xs md:max-w-min md:whitespace-nowrap rounded">Learn more FAFSA</a>
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@ export default {
               to represent your credit risk, or the likelihood you will pay your bills on time.Credit scores are one of many factors used by lenders when
               determining your likelihood of paying back a loan.
             </p>
-              <a href="" class="bg-main-gold text-center pb-2 pt-5 px-4 max-w-xs md:max-w-min md:whitespace-nowrap rounded">Learn more about your reports</a>
+              <a href="https://www.equifax.com/personal/understanding-credit/" class="bg-main-gold text-center pb-2 pt-5 px-4 max-w-xs md:max-w-min md:whitespace-nowrap rounded">Learn more about your reports</a>
           </div>
         </div>
         <div class="flex flex-col justify-between items-center px-4 pb-10 border-b-2 border-gray-400 md:px-8 lg:px-32 2xl:px-64 md:gap-5 md:flex-row space-y-4 md:space-y-0 md:space-x-10">
@@ -118,7 +118,7 @@ export default {
               What does it all mean for you? Your credit matters because it affects your ability to get a loan, a job, housing, insurance, and more. It's important
               to understand what your credit is and how to protect it.
             </p>
-              <a href="" class="bg-main-gold text-center pb-2 pt-5 px-4 max-w-xs md:max-w-min md:whitespace-nowrap rounded">Learn more about your the FTC</a>
+              <a href="https://www.ftc.gov/" class="bg-main-gold text-center pb-2 pt-5 px-4 max-w-xs md:max-w-min md:whitespace-nowrap rounded">Learn more about your the FTC</a>
           </div>
         </div>
         <div class="flex flex-col justify-between items-center px-4 md:px-8 lg:px-32 2xl:px-64 md:gap-5 md:flex-row space-y-4 md:space-y-0 md:space-x-10">
